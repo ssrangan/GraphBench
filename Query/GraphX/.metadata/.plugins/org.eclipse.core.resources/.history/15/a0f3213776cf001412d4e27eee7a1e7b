@@ -1,0 +1,7 @@
+package main.scala.lubm
+
+import main.scala.operation.Query
+
+class LUBMQuery14 extends Query {
+
+}

@@ -1,0 +1,277 @@
+# Query2
+# This query increases in complexity: 3 classes and 3 properties are involved. Additionally, 
+# there is a triangular pattern of relationships between the objects involved.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y ?Z
+WHERE
+{
+    ?X rdf:type ub:GraduateStudent .
+    ?Y rdf:type ub:University .
+    ?Z rdf:type ub:Department .
+    ?X ub:memberOf ?Z .
+    ?Z ub:subOrganizationOf ?Y .
+    ?X ub:undergraduateDegreeFrom ?Y
+}
+
+# Query4
+# This query has small input and high selectivity. It assumes subClassOf relationship 
+# between Professor and its subclasses. Class Professor has a wide hierarchy. Another 
+# feature is that it queries about multiple properties of a single class.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y1 ?Y2 ?Y3
+WHERE
+{
+    { ?X rdf:type ub:AssistantProfessor . }
+    UNION 
+    { ?X rdf:type ub:AssociateProfessor . }
+    UNION
+    { ?X rdf:type ub:FullProfessor . }
+    ?X ub:worksFor <http://www.Department0.University0.edu> .
+    ?X ub:name ?Y1 .
+    ?X ub:emailAddress ?Y2 .
+    ?X ub:telephone ?Y3
+}
+
+# Query5
+# This query assumes subClassOf relationship between Person and its subclasses
+# and subPropertyOf relationship between memberOf and its subproperties.
+# Moreover, class Person features a deep and wide hierarchy.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X
+WHERE
+{
+    { ?X rdf:type ub:AssistantProfessor . }
+    UNION
+    { ?X rdf:type ub:AssociateProfessor . }
+    UNION
+    { ?X rdf:type ub:FullProfessor . }
+    UNION
+    { ?X rdf:type ub:GraduateStudent . }
+    UNION
+    { ?X rdf:type ub:Lecturer . }
+    UNION
+    { ?X rdf:type ub:UndergraduateStudent . }  
+    { ?X ub:memberOf <http://www.Department0.University0.edu> }
+    UNION
+    { ?X ub:worksFor <http://www.Department0.University0.edu> } 
+}
+
+# Query6
+# This query queries about only one class. But it assumes both the explicit
+# subClassOf relationship between UndergraduateStudent and Student and the
+# implicit one between GraduateStudent and Student. In addition, it has large
+# input and low selectivity.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X
+WHERE {
+    { ?X rdf:type ub:UndergraduateStudent }
+    UNION
+    { ?X rdf:type ub:GraduateStudent }
+}
+
+# Query7
+# This query is similar to Query 6 in terms of class Student but it increases in the
+# number of classes and properties and its selectivity is high.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y
+WHERE 
+{
+    <http://www.Department0.University0.edu/AssociateProfessor0> ub:teacherOf ?Y
+    { ?X rdf:type ub:UndergraduateStudent }
+    UNION
+    { ?X rdf:type ub:GraduateStudent }
+    { ?Y rdf:type ub:Course }
+    UNION
+    { ?Y rdf:type ub:GraduateCourse }
+    ?X ub:takesCourse ?Y .
+}
+
+# Query8
+# This query is further more complex than Query 7 by including one more property.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y ?Z
+WHERE
+{
+    { ?X rdf:type ub:UndergraduateStudent }
+    UNION
+    { ?X rdf:type ub:GraduateStudent }
+    ?Y rdf:type ub:Department .
+    ?X ub:memberOf ?Y .
+    ?Y ub:subOrganizationOf <http://www.University0.edu> .
+    ?X ub:emailAddress ?Z
+}
+
+# Query9
+# Besides the aforementioned features of class Student and the wide hierarchy of
+# class Faculty, like Query 2, this query is characterized by the most classes and
+# properties in the query set and there is a triangular pattern of relationships.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y ?Z
+WHERE
+{
+    { ?X rdf:type ub:UndergraduateStudent }
+    UNION
+    { ?X rdf:type ub:GraduateStudent }
+    ?X ub:advisor ?Y .
+    { ?Y rdf:type ub:AssistantProfessor . }
+    UNION 
+    { ?Y rdf:type ub:AssociateProfessor . }
+    UNION
+    { ?Y rdf:type ub:FullProfessor . }
+    ?Y ub:teacherOf ?Z .
+    { ?Z rdf:type ub:Course }
+    UNION
+    { ?Z rdf:type ub:GraduateCourse }
+    ?X ub:takesCourse ?Z
+}
+
+# Query12
+# The benchmark data do not produce any instances of class Chair. Instead, each
+# Department individual is linked to the chair professor of that department by 
+# property headOf. Hence this query requires realization, i.e., inference that
+# that professor is an instance of class Chair because he or she is the head of a
+# department. Input of this query is small as well.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?Y
+WHERE
+{
+    ?X ub:headOf [] .
+    ?Y rdf:type ub:Department .
+    ?X ub:worksFor ?Y .
+    ?Y ub:subOrganizationOf <http://www.University0.edu>
+}
+
+# Query14
+# This query is the simplest in the test set. This query represents those with large input and low selectivity and does not assume any hierarchy information or inference.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X
+WHERE {
+    ?X rdf:type ub:UndergraduateStudent
+}
+
+# QueryA
+# Find all classmates of any graduate students whose advisor is the same as <http://www.Department0.University0.edu/GraduateStudent1>.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT DISTINCT ?classmate WHERE {
+    <http://www.Department0.University0.edu/GraduateStudent1> ub:advisor ?advisor .
+    ?student ub:advisor ?advisor .
+    ?student ub:takesCourse ?course .
+    ?student rdf:type ub:GraduateStudent .
+    ?classmate ub:takesCourse ?course .
+    FILTER (<http://www.Department0.University0.edu/GraduateStudent1> != ?student && <http://www.Department0.University0.edu/GraduateStudent1> != ?classmate && ?classmate != ?student)
+}
+
+# QueryB
+# Retrieve all 3-hop nodes from <http://www.Department0.University0.edu/GraduateStudent1>. 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT DISTINCT ?n3 WHERE {
+    <http://www.Department0.University0.edu/GraduateStudent1> !rdf:type ?n1 .
+    ?n1 !rdf:type ?n2 .
+    ?n2 !rdf:type ?n3 .
+    FILTER ISIRI(?n3)
+}
+
+# QueryC
+# Retrieve all 3-hop nodes to <http://www.University0.edu>.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT DISTINCT ?n1 WHERE {
+    ?n1 ?p1 ?n2 .
+    ?n2 ?p2 ?n3 .
+    ?n3 ?p3 <http://www.University0.edu> .
+}
+
+# QueryD
+# Retrieve all nodes in the egonetwork of <http://www.Department0.University0.edu/GraduateStudent0> whose radius is 2 (not including the center).
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT DISTINCT ?n2 WHERE {
+    { 
+        <http://www.Department0.University0.edu/GraduateStudent0> !rdf:type ?n2
+    }
+    UNION
+    {
+        <http://www.Department0.University0.edu/GraduateStudent0> !rdf:type  ?n1 .
+	?n1 !rdf:type ?n2
+    }
+    FILTER ISIRI(?n2)
+}
+
+# QueryE
+# Retrieve all subgraphs excluding all students, courses, and publication.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?X ?P ?Y WHERE {
+    ?X ?P ?Y 
+    FILTER ISIRI(?Y)
+    FILTER (?P != rdf:type)
+    FILTER NOT EXISTS {
+        { ?X rdf:type ub:UndergraduateStudent }
+        UNION
+        { ?X rdf:type ub:GraduateStudent }
+        UNION
+        { ?X rdf:type ub:Course }
+        UNION
+        { ?X rdf:type ub:GraduateCourse }
+        UNION
+        { ?X rdf:type ub:Publication }
+    }
+    FILTER NOT EXISTS {
+        { ?Y rdf:type ub:UndergraduateStudent }
+        UNION
+        { ?Y rdf:type ub:GraduateStudent }
+        UNION
+        { ?Y rdf:type ub:Course }
+        UNION
+        { ?Y rdf:type ub:GraduateCourse }
+        UNION
+        { ?Y rdf:type ub:Publication }
+        { ?Z ?P2 ?Y }
+    }
+}
+
+# QueryF
+# Retrieve the top-5 graduate courses where the numbers of graduate students in those courses are maximum in <http://www.University0.edu>.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?course (COUNT(?student) AS ?count) WHERE {
+    ?student ub:takesCourse ?course .
+    ?student rdf:type ub:GraduateStudent .
+    ?course rdf:type ub:GraduateCourse .
+    ?professor ub:teacherOf ?course .
+    ?professor ub:worksFor ?department .
+    ?department ub:subOrganizationOf <http://www.University0.edu>.
+}
+GROUP BY ?course
+ORDER BY DESC(?count)
+LIMIT 5
+
+# QueryG
+# Retrieve the number of all professors who are teaching any courses in each university.
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX ub: <http://test/univ.com#>
+SELECT ?university (COUNT(DISTINCT ?professor) AS ?count) WHERE {
+    { ?professor rdf:type ub:FullProfessor }
+    UNION
+    { ?professor rdf:type ub:AssociateProfessor }
+    UNION
+    { ?professor rdf:type ub:AssistantProfessor } 
+    UNION
+    { ?professor rdf:type ub:Lecturer }
+    ?professor ub:teacherOf ?course .
+    ?professor ub:worksFor ?department .
+    ?department ub:subOrganizationOf ?university .
+}
+GROUP BY ?university
+

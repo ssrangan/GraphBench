@@ -1,0 +1,35 @@
+// ----------------------------------------------------------------------------------
+// Author: Seokyong Hong (shong3@ncsu.edu)
+// Date: 03/20/2015
+// ----------------------------------------------------------------------------------
+
+package loader
+
+import org.apache.spark.SparkContext
+import org.apache.spark.sql._
+import org.apache.spark.graphx._
+
+object LUBMJSONLoader {
+    def loadDataset(context: SparkContext, nodePath: String, edgePath: String): Graph[String, String] = {
+        val sqlContext = new SQLContext(context)
+        val nodes = sqlContext.jsonFile(nodePath)
+        val edges = sqlContext.jsonFile(edgePath)
+        
+        nodes.registerTempTable("nodes")
+        edges.registerTempTable("edges")
+        
+        val mapSchema = StructType(Array(StructField("key", LongType, true), StructField("id", StringType, true)))
+val keys = sqlContext.sql("SELECT id FROM nodes").map(row => row(0).toString)
+val map = keys.zipWithUniqueId()
+val flattenedMap = map.map{ case(id, key) => Row(key, id)}
+val mapRDD = sqlContext.applySchema(flattenedMap, mapSchema)
+mapRDD.registerTempTable("map")
+
+val nRDD = sqlContext.sql("SELECT m.key, n.id, n.type, IF(n.name IS NULL, '', n.name), IF(n.emailAddress IS NULL, '', n.emailAddress), IF(n.researchAssistant IS NULL, false, n.researchAssistant), IF(n.researchInterest IS NULL, '', n.researchInterest), IF(n.telephone IS NULL, '', n.telephone) FROM nodes n JOIN map m ON (n.id = m.id)")
+val eRDD = sqlContext.sql("SELECT m1.key, m2.key, e.type FROM edges e JOIN map m1 ON m1.id = e.source JOIN map m2 ON m2.id = e.target")
+
+val vertexRDD :RDD[(Long, (String, String, String, String, Boolean, String, String))] = nRDD.map{ row => (row.getLong(0), (row(1).toString, row(2).toString, row(3).toString, row(4).toString, row.getBoolean(5), row(6).toString, row(7).toString))}
+val edgeRDD :RDD[Edge[String]] = eRDD.map{ row => new Edge(row.getLong(0), row.getLong(1), row.getString(2))}
+val graphRDD :Graph[(String, String, String, String, Boolean, String, String), String] = Graph(vertexRDD, edgeRDD)
+    }  
+}

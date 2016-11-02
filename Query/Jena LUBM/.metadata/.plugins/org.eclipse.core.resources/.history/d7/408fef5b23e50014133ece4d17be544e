@@ -1,0 +1,34 @@
+'''
+Created on Apr 17, 2015
+North Carolina State University
+@author: Seokyong Hong (shong3@ncsu.edu)
+'''
+
+from abc import ABCMeta, abstractmethod
+from query.QueryError import QueryError
+from utility.FileWriter import FileWriter
+
+class AbstractQuery(object):
+    __metaclass__ = ABCMeta
+
+    def __init__(self, name):
+        self.name = name
+    
+    def __str__(self):
+        return 'Query: {0}'.format(self.name)
+    
+    @abstractmethod
+    def initialize(self, graph):
+        if graph is None:
+            raise QueryError('Input graph should be passed.')
+        self.graph = graph
+        self.writer = FileWriter(self.name)
+        self.writer.open()
+    
+    @abstractmethod
+    def process(self):
+        raise QueryError('The process method must be overriden.')
+    
+    @abstractmethod
+    def finalize(self):
+        self.writer.close()

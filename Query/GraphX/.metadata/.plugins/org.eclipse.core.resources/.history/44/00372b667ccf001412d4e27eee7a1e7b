@@ -1,0 +1,10 @@
+package main.scala.lubm
+
+import main.scala.operation.Query
+import org.apache.spark.graphx._
+
+class LUBMQuery14(graphRDD: Graph[(String, String, String, String, Boolean, String, String), String]) extends Query(graphRDD) {
+    override def execute(directory: String) = {
+        graph.vertices.filter(_._2._2 == "UndergraduateStudent").foreach(vertex => println(s"${vertex._2._1}"))
+    }
+}

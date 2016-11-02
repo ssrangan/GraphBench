@@ -1,0 +1,254 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/phantom/git/benchmark/Query/Jena LUBM/.metadata/.plugins/org.eclipse.core.resources/.projects/Jena LUBM/com.python.pydev.analysis/v2_indexcache
+solarpy.profile.__init__|1394032272000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/profile/__init__.py
+solarpy.yarc.__init__|1391618720000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/__init__.py
+main|1429398648000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/main.py
+solarpy.__init__|1391618720000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/__init__.py
+query.lubm.Query14|1429290526000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query14.py
+query.lubm.Query12|1429290526000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query12.py
+query.__init__|1429282116000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/__init__.py
+utility.__init__|1429282187000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/utility/__init__.py
+query.lubm.Query2|1429291560000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query2.py
+query.QueryError|1429290209000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/QueryError.py
+solarpy.yarc.RdfHelp|1394032272000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/RdfHelp.py
+solarpy.yarc.Tracking|1392864684000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/Tracking.py
+solarpy.yarc.yarcutils|1391618720000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/yarcutils.py
+query.AbstractQuery|1429290409000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/AbstractQuery.py
+query.lubm.Query6|1429290526000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query6.py
+query.lubm.Query7|1429392390000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query7.py
+utility.FileWriter|1429289964000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/utility/FileWriter.py
+query.lubm.Query4|1429290487000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query4.py
+solarpy.yarc.urika|1406142640000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/urika.py
+query.lubm.Query5|1429290487000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query5.py
+query.lubm.Query8|1429290526000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query8.py
+query.lubm.__init__|1429282342000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/__init__.py
+query.lubm.Query9|1429290526000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/query/lubm/Query9.py
+solarpy.profile.profile|1394032272000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/profile/profile.py
+solarpy.yarc.Graphy|1391618720000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/Graphy.py
+solarpy.yarc.BlockTemplate|1391618720000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/solarpy/yarc/BlockTemplate.py
+PLUS|1414984116000|/home/phantom/git/benchmark/Query/Jena LUBM/Jena LUBM/PLUS.py
+-- END DISKCACHE
+-- START DICTIONARY
+81
+66=Graphy.__init__
+47=UrikaOptions
+6=main
+33=initwrapper
+41=Query12
+25=Result
+44=Query14
+27=TrackingEntity
+62=TrackingContext.start
+32=initsolarpy
+37=Graphy
+61=TrackingContext.__init__
+28=TrackingContext
+71=initsolarpy.__init__
+42=AbstractQuery
+39=QueryError
+23=LogExceptions
+3=query.AbstractQuery
+18=query.lubm.Query6
+7=utility.FileWriter
+14=query.lubm.Query7
+74=Urika.login
+5=solarpy.yarc.urika
+15=query.lubm.Query4
+12=query.lubm.Query5
+68=QueryError.__init__
+17=query.lubm.Query8
+13=query.lubm.Query9
+38=GraphEntity
+35=Rdfer
+55=UrikaOptions.__init__
+24=LogExtra
+59=Urika.checkpoint_roll
+8=solarpy.yarc.Graphy
+57=Rdfer.__init__
+81=GraphEntity.__init__
+78=LogExtra.__init__
+49=DbMem
+1=PLUS
+65=DbMem.__init__
+48=Urika
+80=TrackingEntity.start
+29=Tracking
+63=Tracking.__init__
+26=PoolPlus
+45=FileWriter
+40=Query8
+43=Query9
+34=RdferEnt
+20=query.lubm.Query14
+21=query.lubm.Query12
+54=initoptions.__init__
+73=Urika.set_prologue
+36=Query2
+60=AbstractQuery.initialize
+16=query.lubm.Query2
+46=Query4
+79=Urika.db_validate
+50=Query5
+2=solarpy.yarc.RdfHelp
+19=query.QueryError
+51=Query6
+52=Query7
+76=RdferEnt.__init__
+22=LogExceptions.__init__
+64=FileWriter.open
+53=Urika.__init__
+10=solarpy.yarc.Tracking
+72=WithPool
+9=solarpy.yarc.yarcutils
+70=AbstractQuery.__init__
+58=BlockTemplate.__init__
+56=SingletonPool
+67=TrackingEntity.__init__
+31=initoptions
+69=FileWriter.__init__
+11=solarpy.profile.profile
+75=Urika.switchDatabase
+4=solarpy.yarc.BlockTemplate
+30=BlockTemplate
+77=initwrapper.__init__
+-- END DICTIONARY
+-- START TREE 1
+51
+_ur|1|_urikaCheck!10@
+a|1|a!19@
+abs|1|AbstractQuery!25@
+bas|1|baseURI!19@
+blo|1|BlockTemplate!33@
+com|1|comment!19@
+dbm|1|DbMem!41@
+dep|1|depth!35@
+dic|1|dict_brief_str!34@
+doi|1|doInclude!34@
+end|1|endTime!51@
+esc|1|escapeUri!18@
+fil|1|FileWriter!57@
+fus|1|FusekiLogin!10@
+gra|2|GraphEntity!65@Graphy!65@
+hby|1|hbytes!74@
+id|1|id!18@
+ign|1|ignoreSigInt!74@
+ini|6|init_logging!42@initsolarpy!9@init_options!42@init_logging!74@initoptions!9@initwrapper!9@
+lab|1|label!19@
+lit|1|lit!18@
+ln|1|ln!18@
+loa|1|load!34@
+log|4|LogExtra!73@log!75@log!83@LogExceptions!73@
+mai|2|main_run!42@main!42@
+mon|3|monitor_logfile!42@monitor_log_proc!42@monitor!42@
+myc|0|
+myt|1|myType!18@
+p|1|p!18@
+par|1|parseTS!18@
+poo|1|PoolPlus!73@
+pre|2|prepare_options!42@pre!19@
+pro|3|profile!90@process!74@process_stats!42@
+pyn|1|pyname!42@
+pyt|1|pyToXsdTypes!19@
+que|11|query!51@Query5!97@Query9!105@Query7!113@Query4!121@Query2!129@Query8!137@Query6!145@QueryError!153@Query14!161@Query12!169@
+rdb|1|rdbToXsdTypes!19@
+rdf|3|rdftype!19@RdferEnt!17@Rdfer!17@
+rel|1|relfile!34@
+res|1|Result!73@
+run|2|run_foreach!34@run_include!34@
+s|1|s!18@
+ser|1|serv_stats!42@
+sin|1|SingletonPool!73@
+sta|1|startTime!51@
+tra|3|TrackingContext!81@TrackingEntity!81@Tracking!81@
+trp|1|trp!18@
+typ|1|typedLit!18@
+uri|4|UrikaLogin!10@UrikaOptions!41@uri!18@Urika!41@
+wit|1|WithPool!73@
+xsd|5|xsd_long!18@xsdString!18@xsdLit!18@xsdInt!18@xsdTypeUri!18@
+-- END TREE
+-- START TREE 2
+82
+__c|2|__callable!22&75@__call__!23&74@
+__g|1|__getitem__!24&74@
+__i|31|__init__!25&74@__init__!26&74@__init__!23&74@__init__!24&74@__init__!27&82@__init__!28&82@__init__!29&82@__iter__!24&74@__init__!30&34@__init__!31&10@__init__!32&10@__init__!33&10@__init__!34&18@__init__!35&18@__init__!36&130@__init__!37&66@__init__!38&66@__init__!39&154@__init__!40&138@__init__!41&170@__init__!42&26@__init__!43&106@__init__!44&162@__init__!45&58@__init__!46&122@__init__!47&42@__init__!48&42@__init__!49&42@__init__!50&98@__init__!51&146@__init__!52&114@
+__m|1|__metaclass__!42&27@
+__s|2|__str__!39&154@__str__!42&26@
+add|3|add!38&66@addlit!38&66@addict!27&82@
+adm|6|admin_get!48&42@adminUrl!53&43@admin!54&11@admin_delete!48&42@admin_post!48&42@admin!55&43@
+app|2|apply_async!26&74@apply_async!56&74@
+bas|6|BASE_DIRECTORY!45&59@baseURI!55&43@base!35&18@baseuri!57&19@baseURI!54&11@basefilename!27&82@
+blo|2|blockt!48&42@blocks!58&35@
+bui|2|build_query!48&42@build!30&34@
+che|10|checkpoint_roll!48&42@checkpoint_restore!48&42@checkpoint_id_for_name!48&42@checkpoint_created!53&43@checkpoint_created!59&43@checkpoint_delete!48&42@checkpoint_create!48&42@checkpoint_delete_first_n!48&42@checkpoint_list!48&42@checkpoint_active!48&42@
+clo|2|close!45&58@close!56&74@
+coe|2|coerceterm!37&66@coerceuri!37&66@
+com|2|comment!38&66@commonrq!53&43@
+con|3|connection!60&27@context!28&82@context!29&82@
+cou|6|count_graph!48&42@count_type!48&42@count!61&83@count!62&83@count!63&83@count!57&19@
+dat|3|data_items!48&42@data_import!48&42@data_item_for_name!48&42@
+db|2|db!55&43@db!54&11@
+db_|15|db_for_name!48&42@db_list!48&42@db_state!48&42@db_validate!48&42@db_restart!48&42@db_validate_by_query!48&42@db_stop!48&42@db_wait_while_starting!48&42@db_status!48&42@db_freemem!48&42@db_dirty!48&42@db_start!48&42@db_mem!48&42@db_ensure_started!48&42@db_create!48&42@
+dbm|4|dbmem_used!48&42@dbmemmax!53&43@dbmemmax!55&43@dbmemmax!54&11@
+deb|2|debug!55&43@debug!54&11@
+dec|1|declare!35&18@
+dry|4|dryhttp!55&43@dryrun!54&11@dryrun!55&43@dryhttp!54&11@
+ela|1|elapsed!27&82@
+ent|4|entries!29&82@entries!28&82@ent!35&18@entrystr!27&82@
+err|1|error!27&82@
+fil|1|file!64&59@
+fin|10|finalize!51&146@finalize!50&98@finalize!46&122@finalize!41&170@finalize!44&162@finalize!36&130@finalize!43&106@finalize!40&138@finalize!42&26@finalize!52&114@
+fla|2|flavor!55&43@flavor!54&11@
+fre|1|free!65&43@
+get|1|get!25&74@
+go|1|go!26&74@
+gra|1|graph!66&67@
+ini|10|initialize!52&114@initialize!51&146@initialize!41&170@initialize!50&98@initialize!46&122@initialize!44&162@initialize!36&130@initialize!43&106@initialize!40&138@initialize!42&26@
+ins|2|insert_rdfs_namespace!48&42@insert_data!48&42@
+joi|1|join!56&74@
+lab|2|label!38&66@label!35&18@
+lit|1|lit!35&18@
+log|10|logfiles!48&42@log!53&43@logfile!27&82@logdir!54&11@logdir!55&43@log_level!67&83@log_level!61&83@log_level!53&43@login!48&42@logg!48&42@
+max|1|max!65&43@
+mes|1|message!68&155@
+mon|2|monitor!54&11@monitor!55&43@
+nam|3|name!69&59@name!58&35@name!70&27@
+ns|1|ns!66&67@
+ntr|1|ntriples!29&82@
+obj|1|objects!38&66@
+ope|1|open!45&58@
+opt|3|options!71&11@options!53&43@options!63&83@
+out|1|out!57&19@
+pas|2|password!55&43@password!54&11@
+pat|1|path!64&59@
+pre|1|prepare_optparse!72&74@
+pro|13|process!40&138@process!42&26@process!41&170@prologue!73&43@prologue!53&43@process!43&106@process!44&162@process!36&130@process!46&122@profile!48&42@process!50&98@process!51&146@process!52&114@
+que|23|QUERY!44&163@queryBigUrl!74&43@queryBigUrl!53&43@queryBigUrl!75&43@query!48&42@query_ask!48&42@queryUrl!74&43@queryUrl!53&43@queryUrl!75&43@QUERY!41&171@QUERY!52&115@QUERY!43&107@query_get!48&42@QUERY!40&139@QUERY!50&99@QUERY!46&123@query_timeout!55&43@query_single!48&42@QUERY!51&147@query_first_binding!48&42@QUERY!36&131@query_timeout!54&11@query_int!48&42@
+quo|1|quote_encode!35&18@
+rdf|3|rdf!35&18@rdfer!76&19@rdfs!35&18@
+res|4|resultsDir!54&11@resultsDir!55&43@resource!35&18@results_filename!27&82@
+run|1|run!72&74@
+say|1|say!34&18@
+sec|1|sec!27&82@
+ses|2|session!53&43@session!74&43@
+set|2|set!38&66@set_prologue!48&42@
+ski|1|skip_admin!48&42@
+sol|1|solarq!53&43@
+spa|1|sparql!77&11@
+sta|9|started!29&82@start!78&75@state!53&43@state!79&43@stats_csv!29&82@start!80&83@stats!29&82@start!27&82@start!28&82@
+sto|1|stop!27&82@
+str|1|strln!38&66@
+sub|1|subjects_sorted_by_start!29&82@
+swi|1|switchDatabase!48&42@
+ter|1|terminate!56&74@
+tra|8|tracka!53&43@trackingcontext!67&83@trackq!53&43@tracking!61&83@tracku!53&43@trackc!53&43@track!53&43@trackingentity!29&82@
+trp|2|trplit!35&18@trp!35&18@
+typ|1|type!35&18@
+upd|8|update_timeout!55&43@update_cp!48&42@update!48&42@updateUrl!75&43@updateUrl!74&43@updateUrl!53&43@update_timeout!54&11@update_post!48&42@
+uri|5|uriseg!37&66@uri!76&19@uri!35&18@uri!81&67@urika!71&11@
+url|2|url!55&43@url!54&11@
+use|3|username!55&43@username!54&11@used!65&43@
+val|4|validate_by_query!48&42@value!38&66@valp!38&66@val!38&66@
+wri|2|writer!60&27@writeLine!45&58@
+xsd|1|xsd!35&18@
+-- END TREE

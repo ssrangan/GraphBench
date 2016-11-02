@@ -1,0 +1,49 @@
+'''
+Created on Apr 17, 2015
+
+@author: Seokyong Hong (shong3@ncsu.edu)
+'''
+
+from query.AbstractQuery import AbstractQuery
+
+class Query2(AbstractQuery):
+    QUERY = ''' PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+                PREFIX ub: <http://test/univ.com#>
+                SELECT ?X ?Y ?Z
+                WHERE
+                {
+                    ?X rdf:type ub:GraduateStudent .
+                    ?Y rdf:type ub:University .
+                    ?Z rdf:type ub:Department .
+                    ?X ub:memberOf ?Z .
+                    ?Z ub:subOrganizationOf ?Y .
+                    ?X ub:undergraduateDegreeFrom ?Y
+                }'''
+    
+    def __init__(self):
+        AbstractQuery.__init__(self, 'LUBM Query2')
+    
+    def initialize(self, graph):
+        AbstractQuery.initialize(self, graph)
+    
+    def process(self):
+        for node, properties in self.graph.nodes_iter(data = True):
+            if properties['type'] == 'GraduateStudent':
+                university = None
+                department = None
+                for dummy, neighbor, edgeType in self.graph.edges_iter(nbunch = node, data = True):
+                    if 'memberOf' in edgeType['id']:
+                        department = neighbor
+                    if 'undergraduateDegreeFrom' in edgeType['id']:
+                        university = neighbor
+                    if university is not None and department is not None:
+                        break
+                
+                if university is not None and department is not None:
+                    if self.graph.node[university]['type'] == 'University' and self.graph.node[department]['type'] == 'Department':
+                        if self.graph.has_edge(department, university) and self.graph.edge[department][university]['subOrganizationOf'] is not None:
+                            self.writer.writeLine(str(node) + ', ' + str(university) + ', ' + department)          
+    
+    def finalize(self):
+        AbstractQuery.finalize(self)
+        

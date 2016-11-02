@@ -1,0 +1,23 @@
+package main.scala.lubm
+
+import java.io._
+import org.apache.spark.rdd.RDD
+import main.scala.operation.Query
+import org.apache.spark.graphx._
+
+class LUBMQuery4 (graphRDD: Graph[(String, String, String, String, Boolean, String, String), String]) extends Query(graphRDD) {
+    val NAME = "LUBM Query4"
+    
+    override def execute(directory: String) = {
+        val writer = new PrintWriter(new File(directory, NAME))
+        
+        val worksFor: RDD[(String, String, String, String)] = graph.triplets.filter(triplet => ((triplet.srcAttr._2 == "AssistantProfessor" || triplet.srcAttr._2 == "AssociateProfessor" || triplet.srcAttr._2 == "FullProfessor") && triplet.attr == "worksFor" && triplet.dstAttr._1 == "http://www.Department0.University0.edu")).map {
+            triplet => (triplet.srcAttr._1, triplet.srcAttr._3, triplet.srcAttr._4, triplet.srcAttr._7)
+        }
+        
+        for((professor, name, email, tel) <- worksFor.collect())
+            writer.println(professor + "\t" + name + "\t" + email + "\t" + tel)
+        
+        writer.close()
+    }
+}

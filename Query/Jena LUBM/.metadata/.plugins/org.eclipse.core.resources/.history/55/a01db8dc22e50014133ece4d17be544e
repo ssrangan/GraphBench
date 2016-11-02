@@ -1,0 +1,35 @@
+'''
+Created on Apr 17, 2015
+@author: Seokyong Hong (shong3@ncsu.edu)
+'''
+
+from PLUS import FusekiLogin
+from abc import ABCMeta, abstractmethod
+from query import QueryError
+from utility.FileWriter import FileWriter
+
+class AbstractQuery(object):
+    __metaclass__ = ABCMeta
+
+    def __init__(self, name):
+        self.name = name
+        self.connection = FusekiLogin('ds', 'solarpy')
+    
+    def __str__(self):
+        return 'Query: {0}'.format(self.name)
+    
+    @abstractmethod
+    def initialize(self, graph):
+        if graph is None:
+            raise QueryError('Input graph should be passed.')
+        self.graph = graph
+        self.writer = FileWriter(self.name)
+        self.writer.open()
+    
+    @abstractmethod
+    def process(self):
+        raise QueryError('The process method must be overriden.')
+    
+    @abstractmethod
+    def finalize(self):
+        self.writer.close()

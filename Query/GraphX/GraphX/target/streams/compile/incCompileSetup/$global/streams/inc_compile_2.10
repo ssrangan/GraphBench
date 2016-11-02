@@ -1,0 +1,951 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+56 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/Main$.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/Main.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery14$$anonfun$execute$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery14.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$6.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$7.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$8.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$1.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$2.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$3.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$4.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$5.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$6.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$7.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$8.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9.class
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/operation/Query.class
+binary dependencies:
+49 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> /home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> /home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+20 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+9 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> /mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala
+inheritance external dependencies:
+0 items
+class names:
+56 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> main.scala.Main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> main.scala.Main$
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader$
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main.scala.loader.LUBMJSONLoader$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main.scala.lubm.LUBMQuery12$$anonfun$5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> main.scala.lubm.LUBMQuery14
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> main.scala.lubm.LUBMQuery14$$anonfun$execute$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$6
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main.scala.lubm.LUBMQuery2$$anonfun$8
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> main.scala.lubm.LUBMQuery4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> main.scala.lubm.LUBMQuery4$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> main.scala.lubm.LUBMQuery4$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> main.scala.lubm.LUBMQuery5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> main.scala.lubm.LUBMQuery5$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> main.scala.lubm.LUBMQuery5$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> main.scala.lubm.LUBMQuery6
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> main.scala.lubm.LUBMQuery6$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> main.scala.lubm.LUBMQuery6$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main.scala.lubm.LUBMQuery7$$anonfun$5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main.scala.lubm.LUBMQuery8$$anonfun$5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$6
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main.scala.lubm.LUBMQuery9$$anonfun$8
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> main.scala.operation.Query
+used names:
+572 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> AnyRef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Array
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> EDGE_PATH
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMJSONLoader
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery12
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery14
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery6
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery8
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> LUBMQuery9
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> NODE_PATH
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> SparkConf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> SparkContext
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> Unit
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> conf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> execute
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> loadDataset
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> loader
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> sc
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> setAppName
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> AnyRef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Array
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Edge
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> LUBMJSONLoader
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> LongType
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Row
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> SQLContext
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> SparkContext
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> StringType
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> StructType
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> applySchema
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> context
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> eRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> edgePath
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> edgeRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> edges
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> flattenedMap
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> getBoolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> getLong
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> getString
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> id
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> jsonFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> key
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> keys
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> loader
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> mapRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> mapSchema
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> nRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> nodePath
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> nodes
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> registerTempTable
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> row
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> sql
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> sqlContext
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> toString
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> types
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> vertexRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> zipWithUniqueId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> LUBMQuery12
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Ordering
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> department
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> dstId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> join
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> joined
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> math
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> person
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> rddToPairRDDFunctions
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> srcId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> subOrganizationOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> worksFor
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> LUBMQuery14
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> vertices
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> LUBMQuery2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Ordering
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Tuple3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> department
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> deptID
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> dstId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> join
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> joined1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> joined2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> math
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> memberOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> rddToPairRDDFunctions
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> srcId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> student
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> subOrganizationOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> undergraduateDegreeFrom
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> univID
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> university
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> LUBMQuery4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Tuple4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> _3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> _4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> _7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> worksFor
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> LUBMQuery5
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> LUBMQuery6
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> students
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> vertex
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> vertices
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> LUBMQuery7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Ordering
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> course
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> dstId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> join
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> joined
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> math
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> rddToPairRDDFunctions
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> student
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> takesCourse
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> teacherOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> LUBMQuery8
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Ordering
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> _4
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> department
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> dstId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> email
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> join
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> joined
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> math
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> memberOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> rddToPairRDDFunctions
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> srcId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> student
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> subOrganizationOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> &&
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> +
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Boolean
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> ClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> LUBMQuery9
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Long
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> NAME
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Ordering
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> RDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Tuple2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Tuple3
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> Tuple7
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> _1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> _2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> advisor
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> apply
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> attr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> course
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> courseID
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> directory
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> dstAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> dstId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> filter
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> io
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> java
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> join
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> joined1
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> joined2
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> lubm
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> map
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> materializeClassTag
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> math
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> ne
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> package
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> profID
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> professor
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> rdd
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> rddToPairRDDFunctions
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> saveAsTextFile
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> spark
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> srcAttr
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> srcId
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> student
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> takesCourse
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> teacherOf
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> triplet
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> triplets
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> ||
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> <init>
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Any
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> AnyRef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Nothing
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Predef
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Query
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> S
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> String
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> T
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> Unit
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> _root_
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> apache
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> graph
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> graphRDD
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> graphx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> main
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> operation
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> org
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> scala
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> spark
+product stamps:
+56 items
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/Main$.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/Main.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader$.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/loader/LUBMJSONLoader.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12$$anonfun$5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery12.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery14$$anonfun$execute$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery14.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$6.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$7.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2$$anonfun$8.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery6.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7$$anonfun$5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery7.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8$$anonfun$5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery8.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$1.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$2.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$3.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$4.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$5.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$6.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$7.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9$$anonfun$8.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/lubm/LUBMQuery9.class -> lastModified(1436886628000)
+/mnt/data/benchmark/Query/GraphX/GraphX/target/scala-2.10/classes/main/scala/operation/Query.class -> lastModified(1436886628000)
+source stamps:
+12 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> hash(adb20aa5a7911df8fe474b352dc5d427cf696c71)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> hash(cd0e46c914c5354ef2277d58509d282ef9d83fe6)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> hash(5f22ff95cfb600b38188e8e630ce552b3f8fd831)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> hash(a3d9b13f1c4bb448cc2e779702e96b8717ced406)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> hash(98228b53148ee5faa80b7fb6661dd3f3815f1cc5)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> hash(6c131fc43150c2ee51437d29275fc32e5885b92a)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> hash(afb17f76728a49df2bd26b5dc1d0f1eaa877a9fe)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> hash(6bda1ac05002f1f787622d1c869adc6c1cf18d9f)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> hash(a3f7e0e5e92ee7364e2beab5092f165c8734872a)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> hash(5e36c9a308aadaf64d8025382a2b45b8a0db50db)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> hash(d5ce49d58accac497fe0b0e4b893cceae1e9b7fd)
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> hash(3a3bfe99d113089657ef55e55a85f5dbb90a3ade)
+binary stamps:
+6 items
+/home/s52/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.3.0.jar -> lastModified(1425599075000)
+/home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar -> lastModified(1425598998000)
+/home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar -> lastModified(1425599055000)
+/home/s52/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.3.0.jar -> lastModified(1425599009000)
+/home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> lastModified(1425002069000)
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar -> lastModified(1421797585000)
+class names:
+6 items
+/home/s52/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.3.0.jar -> org.apache.spark.sql.types.LongType$
+/home/s52/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.3.0.jar -> org.apache.spark.rdd.PairRDDFunctions
+/home/s52/.ivy2/cache/org.apache.spark/spark-graphx_2.10/jars/spark-graphx_2.10-1.3.0.jar -> org.apache.spark.graphx.Graph
+/home/s52/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.3.0.jar -> org.apache.spark.sql.DataFrame
+/home/s52/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> scala.Predef$
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.31-1.b13.el6_6.x86_64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+12 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAWHqlGAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cLDjL+h0AAZub3RpZnlzcQB+AAwKpAZadAAEd2FpdHNxAH4ADBy3Z0B0AAlFREdFX1BBVEhzcQB+AAzK2FJwdAANJGFzSW5zdGFuY2VPZnNxAH4ADHL/14R0AAZlcXVhbHNzcQB+AAxiNVY6dAAMYXNJbnN0YW5jZU9mc3EAfgAMsue1K3QADHN5bmNocm9uaXplZHNxAH4ADAvgHg10AA0kaXNJbnN0YW5jZU9mc3EAfgAMEOpXUnQABG1haW5zcQB+AAxXM1NudAAJbm90aWZ5QWxsc3EAfgAMGt0m+nQADGlzSW5zdGFuY2VPZnNxAH4ADGaV0/x0AAI9PXNxAH4ADBNfo+p0AAVjbG9uZXNxAH4ADCYCs1d0AARNYWluc3EAfgAMxWjHfHQACHRvU3RyaW5nc3EAfgAMFN5AX3QAAiE9c3EAfgAMUO8xKHQACGdldENsYXNzc3EAfgAMYOE493QACU5PREVfUEFUSHNxAH4ADAUxF3V0AAJuZXNxAH4ADMuR4ip0AAJlcXNxAH4ADNhnsMR0AAIjI3NxAH4ADIZogkx0AAhmaW5hbGl6ZXNxAH4ADGSiXBp0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEV4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AA9tYWluLnNjYWxhLk1haW51cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgBeeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBdAHBzcQB+AGJzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4ARUwACWluaGVyaXRlZHEAfgBFTAAHcGFyZW50c3EAfgBFeHEAfgBmc3EAfgBdAHBzcQB+AGJ1cQB+AEAAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEZxAH4AT3VxAH4AUAAAAABzcQB+AFIAcQB+AB91cQB+AFUAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AZXQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGVzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AIN1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBweHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBYdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgB3WwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBlc3EAfgB2dAAFQXJyYXlxAH4AfHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgB2dAAGU3RyaW5nc3EAfgB6c3EAfgB9dXEAfgCAAAAAA3NxAH4AgnQABGphdmFzcQB+AIJ0AARsYW5ncQB+AIdzcQB+AF0AcHNxAH4AYnVxAH4AQAAAAABzcQB+AF0AcHNxAH4AYnVxAH4AmwAAAAJzcQB+AHZ0AAZPYmplY3RxAH4An3NxAH4AdnQAA0FueXEAfgB8dXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAAJzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwcQB+AB9zcQB+ALJ0AAptYWluLnNjYWxhc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFOjR3aNnVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEEvbW50L2RhdGEvYmVuY2htYXJrL1F1ZXJ5L0dyYXBoWC9HcmFwaFgvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFK2yCqWnkR34/kdLNS3F1CfPaWxx
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCjzyL/AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPhtH/R0AAZub3RpZnlzcQB+AAzVkz2EdAAEd2FpdHNxAH4ADBWNCq90AA0kYXNJbnN0YW5jZU9mc3EAfgAMQLTRtHQABmVxdWFsc3NxAH4ADMaQUvR0AAxhc0luc3RhbmNlT2ZzcQB+AAxC6MJQdAAMc3luY2hyb25pemVkc3EAfgAM9lNTIHQADSRpc0luc3RhbmNlT2ZzcQB+AAz5lt/OdAALbG9hZERhdGFzZXRzcQB+AAw5nTugdAAJbm90aWZ5QWxsc3EAfgAMsNSF4XQADGlzSW5zdGFuY2VPZnNxAH4ADDAZ62Z0AAI9PXNxAH4ADFsVu+h0AAVjbG9uZXNxAH4ADLAcjeF0AAh0b1N0cmluZ3NxAH4ADLphIip0AAIhPXNxAH4ADEci0c10AAhnZXRDbGFzc3NxAH4ADFCxGKl0AA5MVUJNSlNPTkxvYWRlcnNxAH4ADP9kxLt0AAJuZXNxAH4ADMzrIgV0AAJlcXNxAH4ADI4/w4l0AAIjI3NxAH4ADD5+GRN0AAhmaW5hbGl6ZXNxAH4ADD6bbYd0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACBtYWluLnNjYWxhLmxvYWRlci5MVUJNSlNPTkxvYWRlcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AFp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AFkAcHNxAH4AXnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGJzcQB+AFkAcHNxAH4AXnVxAH4APAAAAABzcQB+AFkAcHNxAH4AXnVxAH4APAAAAABzcQB+AFkAcHNxAH4AXnVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAACc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AYXQABk9iamVjdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AYXNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAA3NyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAEamF2YXNxAH4AfnQABGxhbmdzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Af3NxAH4AcnQAA0FueXNxAH4AdnNxAH4AeXVxAH4AfAAAAAJzcQB+AH50AAVzY2FsYXEAfgCFdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAEbWFpbnNxAH4Aj3QAEW1haW4uc2NhbGEubG9hZGVyc3EAfgCPdAAKbWFpbi5zY2FsYXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTo0d2jZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABBL21udC9kYXRhL2JlbmNobWFyay9RdWVyeS9HcmFwaFgvR3JhcGhYL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTNDkbJFMU1TvInfVhQnSgu+dg/5g==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHB1gqgLAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cF0ipHJ0AAZub3RpZnlzcQB+AAw57atXdAAHZXhlY3V0ZXNxAH4ADFq5IFZ0AAR3YWl0c3EAfgAMDec7h3QADSRhc0luc3RhbmNlT2ZzcQB+AAwaZQx9dAAGZXF1YWxzc3EAfgAMfSE6gHQABE5BTUVzcQB+AAxzkifKdAAMYXNJbnN0YW5jZU9mc3EAfgAMAOR6p3QADHN5bmNocm9uaXplZHNxAH4ADJbhFLV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMVxMt/nQACW5vdGlmeUFsbHNxAH4ADJLJZ150AAxpc0luc3RhbmNlT2ZzcQB+AAzgvEYJdAAGPGluaXQ+c3EAfgAMAzsS/HQAC0xVQk1RdWVyeTEyc3EAfgAMjqkXWXQAAj09c3EAfgAMYBvzUnQABWNsb25lc3EAfgAMyvtvwHQACHRvU3RyaW5nc3EAfgAMl4mfYHQABWdyYXBoc3EAfgAMcRqGqHQAAiE9c3EAfgAMuCT23XQACGdldENsYXNzc3EAfgAMVG2ROnQAAm5lc3EAfgAMDX/8c3QAAmVxc3EAfgAMCCng5nQAAiMjc3EAfgAMR/YxOnQACGZpbmFsaXplc3EAfgAMty/L0nQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAG21haW4uc2NhbGEubHVibS5MVUJNUXVlcnkxMnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXwBwc3EAfgBkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AZ3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgB5eHEAfgBndAAFUXVlcnlzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABG1haW5zcQB+AId0AAVzY2FsYXNxAH4Ah3QACW9wZXJhdGlvbnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCIdXEAfgB2AAAAAnNxAH4AeHNxAH4AfHQABlR1cGxlN3NxAH4Af3NxAH4AgnVxAH4AhQAAAAJzcQB+AIdxAH4AjHEAfgCQdXEAfgB2AAAAB3NxAH4AfHQABlN0cmluZ3NxAH4Af3NxAH4AgnVxAH4AhQAAAANzcQB+AId0AARqYXZhc3EAfgCHdAAEbGFuZ3EAfgCQcQB+AJpxAH4AmnEAfgCac3EAfgB8dAAHQm9vbGVhbnEAfgCVcQB+AJpxAH4AmnEAfgCac3EAfgB8dAAGT2JqZWN0cQB+AJxzcQB+AHx0AANBbnlxAH4AlXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHEAfgCKc3EAfgCrdAAKbWFpbi5zY2FsYXNxAH4Aq3QAD21haW4uc2NhbGEubHVibXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTo0d2jZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABBL21udC9kYXRhL2JlbmNobWFyay9RdWVyeS9HcmFwaFgvR3JhcGhYL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABRfIv+Vz7YAs4GI6OYwzlUrP4/YMQ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDJFnodAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAwDxz50AAZub3RpZnlzcQB+AAyoFb/6dAALTFVCTVF1ZXJ5MTRzcQB+AAyiYGpQdAAHZXhlY3V0ZXNxAH4ADCutxjV0AAR3YWl0c3EAfgAMW6gqnHQADSRhc0luc3RhbmNlT2ZzcQB+AAxp+5Z4dAAGZXF1YWxzc3EAfgAMNQhK1XQABE5BTUVzcQB+AAwOuKkgdAAMYXNJbnN0YW5jZU9mc3EAfgAM09KhOXQADHN5bmNocm9uaXplZHNxAH4ADMa3/EV0AA0kaXNJbnN0YW5jZU9mc3EAfgAMMKIf3XQACW5vdGlmeUFsbHNxAH4ADMBfK1F0AAxpc0luc3RhbmNlT2ZzcQB+AAxCffFjdAAGPGluaXQ+c3EAfgAMyDFI4XQAAj09c3EAfgAMwgR833QABWNsb25lc3EAfgAMVGXABHQACHRvU3RyaW5nc3EAfgAMzxB+fnQABWdyYXBoc3EAfgAM6EtlRXQAAiE9c3EAfgAM/4sthXQACGdldENsYXNzc3EAfgAMcXvVw3QAAm5lc3EAfgAMoP7GAHQAAmVxc3EAfgAMVcfeh3QAAiMjc3EAfgAMWtJ6aHQACGZpbmFsaXplc3EAfgAMbarUWXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AR3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAG21haW4uc2NhbGEubHVibS5MVUJNUXVlcnkxNHVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQACENsYXNzRGVmdXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AYHhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AXwBwc3EAfgBkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEdMAAlpbmhlcml0ZWRxAH4AR0wAB3BhcmVudHNxAH4AR3hxAH4AaHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXEAfgBCAAAAAHNxAH4AXwBwc3EAfgBkdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAANzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBldAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AZ3NyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHEAfgB5eHEAfgBndAAFUXVlcnlzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGdzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAARzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABG1haW5zcQB+AId0AAVzY2FsYXNxAH4Ah3QACW9wZXJhdGlvbnNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgCIdXEAfgB2AAAAAnNxAH4AeHNxAH4AfHQABlR1cGxlN3NxAH4Af3NxAH4AgnVxAH4AhQAAAAJzcQB+AIdxAH4AjHEAfgCQdXEAfgB2AAAAB3NxAH4AfHQABlN0cmluZ3NxAH4Af3NxAH4AgnVxAH4AhQAAAANzcQB+AId0AARqYXZhc3EAfgCHdAAEbGFuZ3EAfgCQcQB+AJpxAH4AmnEAfgCac3EAfgB8dAAHQm9vbGVhbnEAfgCVcQB+AJpxAH4AmnEAfgCac3EAfgB8dAAGT2JqZWN0cQB+AJxzcQB+AHx0AANBbnlxAH4AlXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHEAfgCKc3EAfgCrdAAKbWFpbi5zY2FsYXNxAH4Aq3QAD21haW4uc2NhbGEubHVibXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTo0d2jZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABBL21udC9kYXRhL2JlbmNobWFyay9RdWVyeS9HcmFwaFgvR3JhcGhYL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABSj2bE/HEu0SMwud5cC6WuHF87UBg==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHA9OcAOAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cF2Lc3B0AAZub3RpZnlzcQB+AAw9Xgw0dAAHZXhlY3V0ZXNxAH4ADDCIzGR0AAR3YWl0c3EAfgAMivac5HQADSRhc0luc3RhbmNlT2ZzcQB+AAw8+Z/idAAGZXF1YWxzc3EAfgAM+Hxvu3QABE5BTUVzcQB+AAyGIEdodAAMYXNJbnN0YW5jZU9mc3EAfgAMU1+pW3QACkxVQk1RdWVyeTJzcQB+AAwmyUMWdAAMc3luY2hyb25pemVkc3EAfgAMP2BbA3QADSRpc0luc3RhbmNlT2ZzcQB+AAwptDfvdAAJbm90aWZ5QWxsc3EAfgAMJFA06nQADGlzSW5zdGFuY2VPZnNxAH4ADAlO0hJ0AAY8aW5pdD5zcQB+AAwNO+AFdAACPT1zcQB+AAx5ZUOPdAAFY2xvbmVzcQB+AAzoqakqdAAIdG9TdHJpbmdzcQB+AAyObabudAAFZ3JhcGhzcQB+AAwSqUP4dAACIT1zcQB+AAyWpb7kdAAIZ2V0Q2xhc3NzcQB+AAyqSOdjdAACbmVzcQB+AAzUXM4/dAACZXFzcQB+AAz4J4jwdAACIyNzcQB+AAxJDc6+dAAIZmluYWxpemVzcQB+AAyXpuUIdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUmCKLUxSO5fqoC3+2Zh3T84FfHMU=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBgtgXRAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMJLerN0AAZub3RpZnlzcQB+AAyxhdoZdAAHZXhlY3V0ZXNxAH4ADG0EGsx0AAR3YWl0c3EAfgAMOvMjF3QADSRhc0luc3RhbmNlT2ZzcQB+AAy/FPHedAAKTFVCTVF1ZXJ5NHNxAH4ADNm+8PF0AAZlcXVhbHNzcQB+AAz2hGoHdAAETkFNRXNxAH4ADGnow4B0AAxhc0luc3RhbmNlT2ZzcQB+AAzjZ4s8dAAMc3luY2hyb25pemVkc3EAfgAM4tDcoHQADSRpc0luc3RhbmNlT2ZzcQB+AAwMh3xHdAAJbm90aWZ5QWxsc3EAfgAMUHpu53QADGlzSW5zdGFuY2VPZnNxAH4ADJNJs3l0AAY8aW5pdD5zcQB+AAxsfbogdAACPT1zcQB+AAwnvj7mdAAFY2xvbmVzcQB+AAyLY0sCdAAIdG9TdHJpbmdzcQB+AAwu1LhadAAFZ3JhcGhzcQB+AAxutwpsdAACIT1zcQB+AAxkLgcfdAAIZ2V0Q2xhc3NzcQB+AAz7jVJ/dAACbmVzcQB+AAxC/Vb5dAACZXFzcQB+AAzN40+TdAACIyNzcQB+AAwJY7JydAAIZmluYWxpemVzcQB+AAyrD4SgdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTR1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUbBMfxDFQwu5RQ30pJ1/DLliFuSo=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCR9aPPAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEyIdkp0AAZub3RpZnlzcQB+AAz9Q5b0dAAHZXhlY3V0ZXNxAH4ADDyFk/10AAR3YWl0c3EAfgAMWKvCTnQADSRhc0luc3RhbmNlT2ZzcQB+AAylcyLUdAAGZXF1YWxzc3EAfgAMUY1lU3QABE5BTUVzcQB+AAx+fZ7TdAAMYXNJbnN0YW5jZU9mc3EAfgAMnB3t+3QADHN5bmNocm9uaXplZHNxAH4ADJhG2350AA0kaXNJbnN0YW5jZU9mc3EAfgAMYZPtI3QACW5vdGlmeUFsbHNxAH4ADIfqQmd0AAxpc0luc3RhbmNlT2ZzcQB+AAxpfqGNdAAGPGluaXQ+c3EAfgAMu3XO53QAAj09c3EAfgAMHfI0r3QABWNsb25lc3EAfgAMTQNqOHQACHRvU3RyaW5nc3EAfgAMFKEctXQABWdyYXBoc3EAfgAMcq8zNHQAAiE9c3EAfgAM08HAPnQACGdldENsYXNzc3EAfgAM2Ig8CXQAAm5lc3EAfgAMBhVTsXQACkxVQk1RdWVyeTVzcQB+AAwkVQajdAACZXFzcQB+AAxS3YdkdAACIyNzcQB+AAzWvx8tdAAIZmluYWxpemVzcQB+AAwIdaAmdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTV1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUr7F/dnKKSd8r0mtdwdDx6qh3qf4=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCy+pDBAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cOyg8/l0AAZub3RpZnlzcQB+AAyPHrVjdAAHZXhlY3V0ZXNxAH4ADJSXbm50AAR3YWl0c3EAfgAMilX3U3QADSRhc0luc3RhbmNlT2ZzcQB+AAwL2FK3dAAGZXF1YWxzc3EAfgAMJJ3sfnQABE5BTUVzcQB+AAzXp/FvdAAMYXNJbnN0YW5jZU9mc3EAfgAM7ORZSHQADHN5bmNocm9uaXplZHNxAH4ADD38dgx0AA0kaXNJbnN0YW5jZU9mc3EAfgAM6+XIeXQACW5vdGlmeUFsbHNxAH4ADE1zgzt0AAxpc0luc3RhbmNlT2ZzcQB+AAw/Uae1dAAGPGluaXQ+c3EAfgAMVT8wMHQAAj09c3EAfgAMGT38CnQABWNsb25lc3EAfgAMJ9no5XQACkxVQk1RdWVyeTZzcQB+AAzslfXSdAAIdG9TdHJpbmdzcQB+AAz3Dc1LdAAFZ3JhcGhzcQB+AAw9xjIydAACIT1zcQB+AAzVTL1hdAAIZ2V0Q2xhc3NzcQB+AAzFlroOdAACbmVzcQB+AAykRq+XdAACZXFzcQB+AAyIVRnJdAACIyNzcQB+AAyqDw/fdAAIZmluYWxpemVzcQB+AAwQn+ePdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTZ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUa9oawFAC8feHYi0chprcbBzxjZ8=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCxlAJ5AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cD8IthJ0AAZub3RpZnlzcQB+AAy+ZIv7dAAHZXhlY3V0ZXNxAH4ADBrn/st0AAR3YWl0c3EAfgAMd069bnQADSRhc0luc3RhbmNlT2ZzcQB+AAxWUe9wdAAGZXF1YWxzc3EAfgAMlMgMC3QABE5BTUVzcQB+AAyKGKb/dAAMYXNJbnN0YW5jZU9mc3EAfgAM3pSMonQADHN5bmNocm9uaXplZHNxAH4ADIzyptd0AA0kaXNJbnN0YW5jZU9mc3EAfgAMLAHHQHQACkxVQk1RdWVyeTdzcQB+AAxwiSpYdAAJbm90aWZ5QWxsc3EAfgAMIffjTXQADGlzSW5zdGFuY2VPZnNxAH4ADP7zc/N0AAY8aW5pdD5zcQB+AAytXNRHdAACPT1zcQB+AAwoVrh0dAAFY2xvbmVzcQB+AAwbUeysdAAIdG9TdHJpbmdzcQB+AAzsUL68dAAFZ3JhcGhzcQB+AAw0H4FndAACIT1zcQB+AAym3+MmdAAIZ2V0Q2xhc3NzcQB+AAwH5iUJdAACbmVzcQB+AAzzfYuEdAACZXFzcQB+AAyAVb4udAACIyNzcQB+AAzrc2v/dAAIZmluYWxpemVzcQB+AAyX0NEJdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTd1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUo/fg5eku5zZOK+q1CS8WXIc0hyo=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCDz4C0AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cAOGLO50AAZub3RpZnlzcQB+AAyn9whwdAAHZXhlY3V0ZXNxAH4ADARaNbB0AAR3YWl0c3EAfgAMBKgr1XQADSRhc0luc3RhbmNlT2ZzcQB+AAy1gUqBdAAGZXF1YWxzc3EAfgAM0tqQYHQABE5BTUVzcQB+AAz27riddAAKTFVCTVF1ZXJ5OHNxAH4ADIE5gtN0AAxhc0luc3RhbmNlT2ZzcQB+AAwpQbs/dAAMc3luY2hyb25pemVkc3EAfgAMTjcdGXQADSRpc0luc3RhbmNlT2ZzcQB+AAz+WeJcdAAJbm90aWZ5QWxsc3EAfgAMdVA6K3QADGlzSW5zdGFuY2VPZnNxAH4ADEzDKVl0AAY8aW5pdD5zcQB+AAyUQi/2dAACPT1zcQB+AAyROBredAAFY2xvbmVzcQB+AAxIHCVJdAAIdG9TdHJpbmdzcQB+AAyHBQGWdAAFZ3JhcGhzcQB+AAxLNAefdAACIT1zcQB+AAwDczE1dAAIZ2V0Q2xhc3NzcQB+AAz6HseSdAACbmVzcQB+AAzzhquSdAACZXFzcQB+AAxIFlyddAACIyNzcQB+AAxRz8zMdAAIZmluYWxpemVzcQB+AAzN3MCYdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTh1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUXjbJowiq2vZNgCU4KitFuKDbUNs=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBsDDQ1AHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cJQ+8NN0AAZub3RpZnlzcQB+AAyfTglldAAHZXhlY3V0ZXNxAH4ADA8GXsV0AAR3YWl0c3EAfgAMcNdFjnQADSRhc0luc3RhbmNlT2ZzcQB+AAylDRLndAAGZXF1YWxzc3EAfgAMO+DIpHQABE5BTUVzcQB+AAw79q5bdAAMYXNJbnN0YW5jZU9mc3EAfgAMHcwrQHQADHN5bmNocm9uaXplZHNxAH4ADEHUczB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMjHpOVnQACW5vdGlmeUFsbHNxAH4ADCT+cAx0AAxpc0luc3RhbmNlT2ZzcQB+AAyq/ziSdAAGPGluaXQ+c3EAfgAMkvJgLnQAAj09c3EAfgAMBUX3uHQABWNsb25lc3EAfgAMCRdyz3QACHRvU3RyaW5nc3EAfgAMh9HxoHQABWdyYXBoc3EAfgAMfxJSfHQAAiE9c3EAfgAMom9FDHQACGdldENsYXNzc3EAfgAMsM3UWnQAAm5lc3EAfgAMzncsUnQAAmVxc3EAfgAMrwtz/HQACkxVQk1RdWVyeTlzcQB+AAzXwhPvdAACIyNzcQB+AAzf5I5gdAAIZmluYWxpemVzcQB+AAynJdHGdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBHeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAabWFpbi5zY2FsYS5sdWJtLkxVQk1RdWVyeTl1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGB4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF8AcHNxAH4AZHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBHTAAJaW5oZXJpdGVkcQB+AEdMAAdwYXJlbnRzcQB+AEd4cQB+AGhzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVxAH4AQgAAAABzcQB+AF8AcHNxAH4AZHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGdzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeXhxAH4AZ3QABVF1ZXJ5c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBnc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAEc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARtYWluc3EAfgCHdAAFc2NhbGFzcQB+AId0AAlvcGVyYXRpb25zcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AiHVxAH4AdgAAAAJzcQB+AHhzcQB+AHx0AAZUdXBsZTdzcQB+AH9zcQB+AIJ1cQB+AIUAAAACc3EAfgCHcQB+AIxxAH4AkHVxAH4AdgAAAAdzcQB+AHx0AAZTdHJpbmdzcQB+AH9zcQB+AIJ1cQB+AIUAAAADc3EAfgCHdAAEamF2YXNxAH4Ah3QABGxhbmdxAH4AkHEAfgCacQB+AJpxAH4AmnNxAH4AfHQAB0Jvb2xlYW5xAH4AlXEAfgCacQB+AJpxAH4AmnNxAH4AfHQABk9iamVjdHEAfgCcc3EAfgB8dAADQW55cQB+AJV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHBxAH4AinNxAH4Aq3QACm1haW4uc2NhbGFzcQB+AKt0AA9tYWluLnNjYWxhLmx1Ym1zcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU1c5J1YrMrEl/4LDkuJPM6uHpt/0=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAwWlYaAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAGHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cKNq0KJ0AAZub3RpZnlzcQB+AAyHnnGLdAAHZXhlY3V0ZXNxAH4ADPJZMPl0AAR3YWl0c3EAfgAMgBnGB3QADSRhc0luc3RhbmNlT2ZzcQB+AAzaV83XdAAGZXF1YWxzc3EAfgAMtIwJVnQADGFzSW5zdGFuY2VPZnNxAH4ADKbp3fZ0AAxzeW5jaHJvbml6ZWRzcQB+AAyMa5LfdAANJGlzSW5zdGFuY2VPZnNxAH4ADI61DvB0AAVRdWVyeXNxAH4ADBvYEsJ0AAlub3RpZnlBbGxzcQB+AAwIEOdodAAMaXNJbnN0YW5jZU9mc3EAfgAM/nziG3QACGdyYXBoUkREc3EAfgAMvMHDz3QABjxpbml0PnNxAH4ADE7q6QZ0AAI9PXNxAH4ADNERgy90AAVjbG9uZXNxAH4ADLihF4B0AAh0b1N0cmluZ3NxAH4ADOgWrBh0AAVncmFwaHNxAH4ADF2Gs190AAIhPXNxAH4ADC2rmU10AAhnZXRDbGFzc3NxAH4ADF1ymhB0AAJuZXNxAH4ADPQZrgh0AAJlcXNxAH4ADFJ3GcN0AAIjI3NxAH4ADO4Gw2F0AAhmaW5hbGl6ZXNxAH4ADMFS5ih0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEd4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAF0ABptYWluLnNjYWxhLm9wZXJhdGlvbi5RdWVyeXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAACc3IAF3hzYnRpLmFwaS5UeXBlUGFyYW1ldGVyZ2lV2+NykGsCAAZbAAthbm5vdGF0aW9uc3EAfgBMTAACaWRxAH4ADUwACmxvd2VyQm91bmR0ABBMeHNidGkvYXBpL1R5cGU7WwAOdHlwZVBhcmFtZXRlcnNxAH4ASUwACnVwcGVyQm91bmRxAH4AWkwACHZhcmlhbmNldAAUTHhzYnRpL2FwaS9WYXJpYW5jZTt4cHVxAH4AUgAAAAB0ABxtYWluLnNjYWxhLm9wZXJhdGlvbi5RdWVyeS5Tc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHQAB05vdGhpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AGFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AG51cQB+AFcAAAAAc3EAfgBfdAADQW55cQB+AGd+cgASeHNidGkuYXBpLlZhcmlhbmNlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAJSW52YXJpYW50c3EAfgBZdXEAfgBSAAAAAHQAHG1haW4uc2NhbGEub3BlcmF0aW9uLlF1ZXJ5LlRxAH4AY3VxAH4AVwAAAABxAH4AdHEAfgB4fnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHEAfgB3dAAIQ2xhc3NEZWZ1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgCEeHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHEAfgBhc3EAfgCDAHBzcQB+AIhzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AR0wACWluaGVyaXRlZHEAfgBHTAAHcGFyZW50c3EAfgBHeHEAfgBic3EAfgCDAHBzcQB+AIh1cQB+AEIAAAAAc3EAfgCDAHBzcQB+AIh1cQB+AEIAAAAAc3EAfgCDAHBzcQB+AIh1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAnNxAH4AX3QABk9iamVjdHNxAH4AZXNxAH4AaHVxAH4AawAAAANzcQB+AG10AARqYXZhc3EAfgBtdAAEbGFuZ3EAfgByc3EAfgBfcQB+AHVzcQB+AGVzcQB+AGh1cQB+AGsAAAACc3EAfgBtcQB+AHBxAH4AcnVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAADc3IAEXhzYnRpLmFwaS5QYWNrYWdlflmP9q7OOVgCAAFMAARuYW1lcQB+AA14cHQABG1haW5zcQB+AKp0ABRtYWluLnNjYWxhLm9wZXJhdGlvbnNxAH4AqnQACm1haW4uc2NhbGFzcgAVeHNidGkuYXBpLkNvbXBpbGF0aW9u7frgw2rooEICAAJKAAlzdGFydFRpbWVbAAdvdXRwdXRzdAAaW0x4c2J0aS9hcGkvT3V0cHV0U2V0dGluZzt4cAAAAU6NHdo2dXIAGltMeHNidGkuYXBpLk91dHB1dFNldHRpbmc7f2rC86eHpUICAAB4cAAAAAFzcgAXeHNidGkuYXBpLk91dHB1dFNldHRpbmd62ZpHdPsdewIAAkwAD291dHB1dERpcmVjdG9yeXEAfgANTAAPc291cmNlRGlyZWN0b3J5cQB+AA14cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAUOjv+mdETCJZX71XlWoX127kKOt4=
+external apis:
+0 items
+source infos:
+12 items
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/Main.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/loader/LUBMJSONLoader.scala -> 
+AAAAAAAAAAEAAAEAAAAcAEQgICAgICAgIHZhbCBtYXBSREQgPSBzcWxDb250ZXh0LmFwcGx5U2NoZW1hKGZsYXR0ZW5lZE1hcCwgbWFwU2NoZW1hKQEAAAQtAQAAACABACAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIAEAUi9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC9zcmMvbWFpbi9zY2FsYS9sb2FkZXIvTFVCTUpTT05Mb2FkZXIuc2NhbGEBAFIvbW50L2RhdGEvYmVuY2htYXJrL1F1ZXJ5L0dyYXBoWC9HcmFwaFgvc3JjL21haW4vc2NhbGEvbG9hZGVyL0xVQk1KU09OTG9hZGVyLnNjYWxhAEltZXRob2QgYXBwbHlTY2hlbWEgaW4gY2xhc3MgU1FMQ29udGV4dCBpcyBkZXByZWNhdGVkOiB1c2UgY3JlYXRlRGF0YUZyYW1lAQ==
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery12.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery14.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery2.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery4.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery5.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery6.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery7.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery8.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/lubm/LUBMQuery9.scala -> 
+AAAAAAAAAAA=
+/mnt/data/benchmark/Query/GraphX/GraphX/src/main/scala/operation/Query.scala -> 
+AAAAAAAAAAA=
+compilations:
+1 items
+0 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABTo0d2jZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAQS9tbnQvZGF0YS9iZW5jaG1hcmsvUXVlcnkvR3JhcGhYL0dyYXBoWC90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABLw==

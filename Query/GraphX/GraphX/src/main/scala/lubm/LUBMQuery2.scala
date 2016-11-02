@@ -1,0 +1,47 @@
+/**
+ * LUBM Query 2
+ * Author: Seokyong Hong
+ * Email: shong3@ncsu.edu
+ * Date: 03/21/2015 
+ */
+
+package main.scala.lubm
+
+import java.io._
+import org.apache.spark.rdd.RDD
+import main.scala.operation.Query
+import org.apache.spark.graphx._
+
+class LUBMQuery2 (graphRDD: Graph[(String, String, String, String, Boolean, String, String), String]) extends Query(graphRDD) {
+    val NAME = "LUBMQuery2"
+    
+    override def execute(directory: String) = {
+/*
+        val writer = new PrintWriter(new File(directory, NAME))
+*/
+        
+        val memberOf: RDD[(Long, (String, Long, String))] = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "GraduateStudent" && triplet.dstAttr._2 == "Department" && triplet.attr == "memberOf")).map { 
+            triplet => (triplet.srcId, (triplet.srcAttr._1, triplet.dstId, triplet.dstAttr._1))
+        }
+        val undergraduateDegreeFrom: RDD[(Long, (Long, String))] = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "GraduateStudent" && triplet.dstAttr._2 == "University" && triplet.attr == "undergraduateDegreeFrom")).map { 
+            triplet => (triplet.srcId, (triplet.dstId, triplet.dstAttr._1)) 
+        }
+        val subOrganizationOf: RDD[((Long, Long), (String, String))] = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "Department" && triplet.dstAttr._2 == "University" && triplet.attr == "subOrganizationOf")).map { 
+            triplet => ((triplet.srcId, triplet.dstId), (triplet.srcAttr._1, triplet.dstAttr._1)) 
+        }
+        val joined1 = memberOf.join(undergraduateDegreeFrom).map {
+            case (studKey, ((student, deptID, department), (univID, university))) => ((deptID, univID), student)
+        }
+        val joined2 = joined1.join(subOrganizationOf).map { 
+            case ((deptID, univID), (student, (department, university))) => (student, department, university) 
+        }
+	joined2.saveAsTextFile(directory+"/"+NAME)
+
+/*
+        for((student, department, university) <- joined2.collect())
+            writer.println(student + "\t" + department + "\t" + university)
+        
+        writer.close()
+*/
+    }
+}

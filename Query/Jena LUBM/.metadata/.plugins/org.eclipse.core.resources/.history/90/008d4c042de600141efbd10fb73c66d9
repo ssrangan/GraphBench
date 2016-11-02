@@ -1,0 +1,36 @@
+'''
+Created on Apr 17, 2015
+North Carolina State University
+@author: Seokyong Hong (shong3@ncsu.edu)
+'''
+
+import time
+import logging
+from query.lubm.Query2 import Query2
+from query.lubm.Query4 import Query4
+from query.lubm.Query5 import Query5
+from query.lubm.Query6 import Query6
+from query.lubm.Query7 import Query7
+from query.lubm.Query8 import Query8
+from query.lubm.Query9 import Query9
+from query.lubm.Query12 import Query12
+from query.lubm.Query14 import Query14
+
+logging.basicConfig(level = logging.CRITICAL)
+
+if __name__ == '__main__':
+    startTime = time.time()
+    #query = Query2()
+    #query = Query4()
+    #query = Query5()
+    #query = Query6()
+    query = Query7()
+    #query = Query8()
+    #query = Query9()
+    #query = Query12()
+    #query = Query14()
+    query.initialize()
+    query.process()
+    query.finalize()
+    endTime = time.time()
+    print str(query) + ' elapsed Time: ' + str(endTime - startTime) + ' seconds.'

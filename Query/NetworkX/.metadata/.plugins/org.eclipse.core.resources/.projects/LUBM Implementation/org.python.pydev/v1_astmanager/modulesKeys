@@ -1,0 +1,25 @@
+MODULES_MANAGER_V2
+lubm.__init__|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/__init__.py
+lubm.query.Query12|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query12.py
+lubm.query.Query14|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query14.py
+lubm.query.Query2|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query2.py
+lubm.query.Query4|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query4.py
+lubm.query.Query5|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query5.py
+lubm.query.Query6|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query6.py
+lubm.query.Query7|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query7.py
+lubm.query.Query8|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query8.py
+lubm.query.Query9|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query9.py
+lubm.query.QueryA|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryA.py
+lubm.query.QueryB|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryB.py
+lubm.query.QueryC|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryC.py
+lubm.query.QueryD|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryD.py
+lubm.query.QueryE|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryE.py
+lubm.query.QueryF|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryF.py
+lubm.query.QueryG|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryG.py
+lubm.query.__init__|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/__init__.py
+main|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/main.py
+query.AbstractQuery|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/AbstractQuery.py
+query.QueryError|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/QueryError.py
+query.__init__|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/__init__.py
+utility.FileWriter|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/utility/FileWriter.py
+utility.__init__|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/utility/__init__.py

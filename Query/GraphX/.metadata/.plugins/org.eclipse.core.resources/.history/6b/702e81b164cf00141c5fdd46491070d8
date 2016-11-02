@@ -1,0 +1,23 @@
+// ----------------------------------------------------------------------------------
+// Author: Seokyong Hong (shong3@ncsu.edu)
+// Date: 03/20/2015
+// ----------------------------------------------------------------------------------
+
+package loader
+
+import org.apache.spark.SparkContext
+import org.apache.spark.sql.SQLContext
+import org.apache.spark.graphx.Graph
+
+object LUBMJSONLoader {
+    def loadDataset(context: SparkContext, nodePath: String, edgePath: String): Graph[String, String] = {
+        val sqlContext = new SQLContext(context)
+        val nodes = sqlContext.jsonFile(nodePath)
+        val edges = sqlContext.jsonFile(edgePath)
+        
+        nodes.registerTempTable("nodes")
+        edges.registerTempTable("edges")
+        
+        
+    }  
+}

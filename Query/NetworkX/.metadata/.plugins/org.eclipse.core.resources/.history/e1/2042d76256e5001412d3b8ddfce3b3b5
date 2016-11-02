@@ -1,0 +1,40 @@
+'''
+Created on 2015. 3. 16.
+North Carolina State University
+@author: Seokyong Hong (shong3@ncsu.edu)
+'''
+
+import time
+import networkx as nx
+from lubm.query.Query2 import Query2
+from lubm.query.Query4 import Query4
+from lubm.query.Query5 import Query5
+from lubm.query.Query6 import Query6
+from lubm.query.Query7 import Query7
+from lubm.query.Query8 import Query8
+from lubm.query.Query9 import Query9
+from lubm.query.Query12 import Query12
+from lubm.query.Query14 import Query14
+from lubm.query.QueryA import QueryA
+from lubm.query.QueryB import QueryB
+from lubm.query.QueryC import QueryC
+from lubm.query.QueryD import QueryD
+from lubm.query.QueryE import QueryE
+from lubm.query.QueryF import QueryF
+from lubm.query.QueryG import QueryG
+
+if __name__ == '__main__':
+    startTime = time.time()
+    graph = nx.read_graphml('/home/phantom/git/benchmark/LUBM/LUBM/data/university.graphml')
+    endTime = time.time()
+    print 'Loading Time: ' + str(endTime - startTime) + ' seconds.'
+    
+    startTime = time.time()
+    query = Query9()
+    query.initialize(graph)
+    query.process()
+    query.finalize()
+    endTime = time.time()
+    print str(query) + ' elapsed Time: ' + str(endTime - startTime) + ' seconds.'
+    
+    

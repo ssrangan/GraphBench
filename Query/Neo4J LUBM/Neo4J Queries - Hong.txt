@@ -1,0 +1,180 @@
+import-graphml -i /home/phantom/git/benchmark/LUBM/LUBM/data/university.graphml -t
+
+
+# File Output Version ----------------------------------------------------------------------
+
+[Query2]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query2.csv MATCH (graduateStudent:GraduateStudent)-[:memberOf]->(department:Department), (department)-[:subOrganizationOf]->(university:University), (graduateStudent)-[:undergraduateDegreeFrom]->(university) RETURN graduateStudent.uri, university.uri, department.uri;
+
+[Query4]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query4.csv MATCH (professor)-[:worksFor]->(department:Department{uri:'http://www.Department0.University0.edu'}) WHERE (professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor') RETURN professor.uri, professor.emailAddress, professor.telephone;
+
+[Query5]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query5.csv MATCH (person)-[:memberOf|:worksFor]->(department:Department{uri:'http://www.Department0.University0.edu'}) WHERE (person.type = 'UndergraduateStudent' or person.type = 'GraduateStudent' or person.type = 'Lecturer' or person.type = 'AssistantProfessor' or person.type = 'AssociateProfessor' or person.type = 'FullProfessor') RETURN person.uri;
+
+[Query6]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query6.csv MATCH (student) WHERE (student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') RETURN student.uri;
+
+[Query7]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query7.csv MATCH (student)-[:takesCourse]->(course), (professor)-[:teacherOf]->(course) WHERE (student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') and (course.type = 'Course' or course.type = 'GraduateCourse') and professor.uri = 'http://www.Department0.University0.edu/AssociateProfessor0' RETURN student.uri, course.uri;
+
+[Query8]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query8.csv MATCH (student)-[:memberOf]->(department:Department), (department)-[:subOrganizationOf]->(university:University{uri:'http://www.University0.edu'}) WHERE (student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') RETURN student.uri, department.uri, student.emailAddress;
+
+[Query9]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query9.csv MATCH (student)-[:advisor]->(professor), (professor)-[:teacherOf]->(course), (student)-[:takesCourse]->(course) WHERE	(student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') and (professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor') and (course.type = 'Course' or course.type = 'GraduateCourse') RETURN student.uri, professor.uri, course.uri;
+
+[Query12]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query12.csv MATCH (person)-[:headOf]->(), (person)-[:worksFor]->(department:Department), (department)-[:subOrganizationOf]->(university:University{uri:'http://www.University0.edu'}) RETURN person.uri, department.uri;
+
+[Query14]
+import-cypher -d"\t" -o /home/phantom/Desktop/Query14.csv MATCH (undergraduateStudent:UndergraduateStudent) RETURN undergraduateStudent.uri;
+
+[QueryA]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryA.csv MATCH (student{uri:'http://www.Department0.University0.edu/GraduateStudent1'})-[:advisor]->(advisor)<-[:advisor]-(peer:GraduateStudent)-[:takesCourse]->(course)<-[:takesCourse]-(classmate) WHERE peer.uri <> student.uri and classmate.uri <> student.uri RETURN DISTINCT classmate.uri;
+
+[QueryB]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryB.csv MATCH (student{uri:'http://www.Department0.University0.edu/GraduateStudent1'})-->()-->()-->(something) RETURN something.uri;
+
+[QueryC]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryC.csv MATCH (something)-->()-->()-->(university{uri:'http://www.University0.edu'}) RETURN DISTINCT something.uri;
+
+[QueryD]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryD.csv MATCH (student{uri:'http://www.Department0.University0.edu/GraduateStudent0'})-[*..2]->(something) RETURN DISTINCT something.uri;
+
+[QueryE]
+???
+
+[QueryF]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryF.csv MATCH (student:GraduateStudent)-[:takesCourse]->(graduateCourse:GraduateCourse)<-[:teacherOf]-(professor)-[:worksFor]->(department)-[:subOrganizationOf]->(university{uri:'http://www.University0.edu'}) RETURN COUNT(student.uri) AS students, graduateCourse.uri ORDER BY students DESC LIMIT 5;
+
+[QueryG]
+import-cypher -d"\t" -o /home/phantom/Desktop/QueryG.csv MATCH (professor)-[:teacherOf]->(course), (professor)-[:worksFor]->(department), (department)-[:subOrganizationOf]->(university) WHERE (professor.type = 'Lecturer' or professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor') RETURN COUNT(DISTINCT professor.uri) AS professors, university.uri;
+
+# No File Output Version -------------------------------------------------------------------
+
+[Query2]
+MATCH
+	(graduateStudent:GraduateStudent)-[:memberOf]->(department:Department),
+	(department)-[:subOrganizationOf]->(university:University),
+	(graduateStudent)-[:undergraduateDegreeFrom]->(university)
+RETURN
+	graduateStudent.uri, university.uri, department.uri;
+
+[Query4]
+MATCH 
+	(professor)-[:worksFor]->(department:Department{uri:'http://www.Department0.University0.edu'}) 
+WHERE 	
+	(professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor')
+RETURN
+	professor.uri, professor.emailAddress, professor.telephone;
+
+[Query5]
+MATCH
+	(person)-[:memberOf|:worksFor]->(department:Department{uri:'http://www.Department0.University0.edu'})
+WHERE
+	(person.type = 'UndergraduateStudent' or person.type = 'GraduateStudent' or person.type = 'Lecturer' or person.type = 'AssistantProfessor' or person.type = 'AssociateProfessor' or person.type = 'FullProfessor')
+RETURN
+	person.uri;
+
+[Query6]
+MATCH
+	(student)
+WHERE
+	(student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent')
+RETURN
+	student.uri;
+
+[Query7]
+MATCH
+	(student)-[:takesCourse]->(course),
+	(professor)-[:teacherOf]->(course)
+WHERE
+	(student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') and
+	(course.type = 'Course' or course.type = 'GraduateCourse') and
+	professor.uri = 'http://www.Department0.University0.edu/AssociateProfessor0'
+RETURN
+	student.uri, course.uri;
+
+[Query8]
+MATCH
+	(student)-[:memberOf]->(department:Department),
+	(department)-[:subOrganizationOf]->(university:University{uri:'http://www.University0.edu'})
+WHERE
+	(student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent')
+RETURN
+	student.uri, department.uri, student.emailAddress;
+
+[Query9]
+MATCH
+	(student)-[:advisor]->(professor),
+	(professor)-[:teacherOf]->(course),
+	(student)-[:takesCourse]->(course)
+WHERE
+	(student.type = 'UndergraduateStudent' or student.type = 'GraduateStudent') and
+	(professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor') and
+	(course.type = 'Course' or course.type = 'GraduateCourse')
+RETURN
+	student.uri, professor.uri, course.uri;
+
+[Query12]
+MATCH
+	(person)-[:headOf]->(),
+	(person)-[:worksFor]->(department:Department),
+	(department)-[:subOrganizationOf]->(university:University{uri:'http://www.University0.edu'})
+RETURN
+	person.uri, department.uri;
+
+[Query14]
+MATCH
+	(undergraduateStudent:UndergraduateStudent)
+RETURN
+	undergraduateStudent.uri;
+
+[QueryA]
+MATCH
+	(student{uri:'http://www.Department0.University0.edu/GraduateStudent1'})-[:advisor]->(advisor)<-[:advisor]-(peer:GraduateStudent)-[:takesCourse]->(course)<-[:takesCourse]-(classmate)
+WHERE
+	peer.uri <> student.uri and
+	classmate.uri <> student.uri
+RETURN 
+	DISTINCT classmate.uri;
+
+[QueryB]
+MATCH
+	(student{uri:'http://www.Department0.University0.edu/GraduateStudent1'})-->()-->()-->(something)
+RETURN DISTINCT something.uri;
+
+[QueryC]
+MATCH
+	(something)-->()-->()-->(university{uri:'http://www.University0.edu'})
+RETURN DISTINCT something.uri;
+
+[QueryD]
+MATCH
+	(student{uri:'http://www.Department0.University0.edu/GraduateStudent0'})-[*..2]->(something)
+RETURN DISTINCT something.uri;
+
+[QueryE]
+???
+
+[QueryF]
+MATCH 
+	(student:GraduateStudent)-[:takesCourse]->(graduateCourse:GraduateCourse)<-[:teacherOf]-(professor)-[:worksFor]->(department)-[:subOrganizationOf]->(university{uri:'http://www.University0.edu'})
+RETURN COUNT(student.uri) AS students, graduateCourse.uri
+ORDER BY students DESC 
+LIMIT 5;
+
+[QueryG]
+MATCH
+	(professor)-[:teacherOf]->(course),
+	(professor)-[:worksFor]->(department),
+	(department)-[:subOrganizationOf]->(university)
+WHERE
+	(professor.type = 'Lecturer' or professor.type = 'AssistantProfessor' or professor.type = 'AssociateProfessor' or professor.type = 'FullProfessor')
+RETURN COUNT(DISTINCT professor.uri) AS professors, university.uri;
+
+
+------------------------------------------------------------------------------------------
+MATCH (n) OPTIONAL MATCH (n)-[r]-() DELETE n,r;
+

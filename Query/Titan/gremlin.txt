@@ -1,0 +1,59 @@
+// Query2 (!!)
+// This query increases in complexity: 3 classes and 3 properties are involved. Additionally, 
+
+graph.V.has('type','GraduateStudent').as('x').outE.has('memberOf').inV.has('type','Department').as('z').has('subOrganizationOf').inV.has('type','University').as('y').back('x').outE.has('undergraduateDegreeFrom').inV.has('type','University')
+
+// Query4
+// This query has small input and high selectivity. It assumes subClassOf relationship 
+// between Professor and its subclasses. Class Professor has a wide hierarchy. Another 
+// feature is that it queries about multiple properties of a single class.
+
+graph.V.or(_().has('type','AssistantProfessor'), _().has('type','AssociateProfessor'),_().has('type','FullProfessor')).as('x').outE.has('worksFor').inV.has('name','Department0').outE.has('subOrganizationOf').back('x').name.as('y1').back('x').mailAddress.as('y2').back('x').telephone.as('y3').table(t)
+
+// Query5
+// This query assumes subClassOf relationship between Person and its subclasses
+// and subPropertyOf relationship between memberOf and its subproperties.
+// Moreover, class Person features a deep and wide hierarchy.
+
+graph.V.or(_().has('type','AssistantProfessor'),_().has('type','AssociateProfessor'),_().has('type','FullProfessor'),_().has('type','GraduateStudent'),_().has('type','Lecturer'),_().has('type','UndergraduateStudent')).as('x')outE.or(_().has('memberOf'),_().has('worksFor')).inV.has('name','Department0').outE.has('subOrganizationOf').inV.has('name','University0').table(t)
+
+// Query6
+// This query queries about only one class. But it assumes both the explicit
+// subClassOf relationship between UndergraduateStudent and Student and the
+// implicit one between GraduateStudent and Student. In addition, it has large
+// input and low selectivity.
+
+graph.V.or(_().has('type','UndergraduateStudent'),_().has('type','GraduateStudent')).as('x').table(t)
+
+// Query7
+// This query is similar to Query 6 in terms of class Student but it increases in the
+// number of classes and properties and its selectivity is high.
+
+graph.V.or(_().has('type','UndergraduateStudent'),_().has('type','GraduateStudent')).as('x').outE.has('takesCourse').inV.or(_().has('type','Course'),_().has('type','GraduateCourse')).as('y').inE.has('teacherOf').outV.has('name','AssociateProfessor0').outE.has('worksFor').inV.has('name','Department0').outE.has('subOrganizationOf').inV.has('name','University0').table(t)
+
+// Query8
+// This query is further more complex than Query 7 by including one more property.
+
+graph.V.or(_().has('type','UndergraduateStudent'),_().has('type','GraduateStudent')).as('x').outE.has('memberOf').inV.has('type','Department').as('y').outE.has('subOrganizationOf').inV.has('name','University0').back('x').emailAddress.as('z').table(t)
+
+// Query9 (!!)
+// Besides the aforementioned features of class Student and the wide hierarchy of
+// class Faculty, like Query 2, this query is characterized by the most classes and
+// properties in the query set and there is a triangular pattern of relationships.
+
+graph.V.or(_().has('type','UndergraduateStudent'),_().has('type','GraduateStudent')).as('x').outE.has('advisor').inV.or(_().has('type','AssistantProfessor'),_().has('type','AssociateProfessor'),_().has('type','FullProfessor')).as('y').outE.has('teacherOf').inV.or(_().has('type','Course'),_().has('type','GraduateCourse')).back('x').outE.has('takesCourse')
+
+// Query 12
+// The benchmark data do not produce any instances of class Chair. Instead, each
+// Department individual is linked to the chair professor of that department by 
+// property headOf. Hence this query requires realization, i.e., inference that
+// that professor is an instance of class Chair because he or she is the head of a
+// department. Input of this query is small as well.
+
+graph.V.as('x').outE.has('headOf').back('x').outE.has('worksFor').inV.has('type','Department').as('y').outE.has('subOrganizationOf').inV.has('name','University0').table(t)
+
+// Query 14
+// This query is the simplest in the test set. This query represents those with large input and low selectivity and does not assume any hierarchy information or inference.
+
+graph.V.has('type','UndergraduateStudent').as('x').table(t)
+

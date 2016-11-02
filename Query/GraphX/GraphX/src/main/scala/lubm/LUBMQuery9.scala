@@ -1,0 +1,45 @@
+/**
+ * LUBM Query 9
+ * Author: Seokyong Hong
+ * Email: shong3@ncsu.edu
+ * Date: 03/21/2015 
+ */
+
+package main.scala.lubm
+
+import java.io._
+import org.apache.spark.rdd.RDD
+import main.scala.operation.Query
+import org.apache.spark.graphx._
+
+class LUBMQuery9 (graphRDD: Graph[(String, String, String, String, Boolean, String, String), String]) extends Query(graphRDD) {
+    val NAME = "LUBMQuery9"
+    
+    override def execute(directory: String) = {
+//        val writer = new PrintWriter(new File(directory, NAME))
+        
+        val advisor: RDD[(Long, (String, Long, String))] = graph.triplets.filter(triplet => ((triplet.srcAttr._2 == "UndergraduateStudent" || triplet.srcAttr._2 == "GraduateStudent") && (triplet.dstAttr._2 == "AssistantProfessor" || triplet.dstAttr._2 == "AssociateProfessor" || triplet.dstAttr._2 == "FullProfessor") && triplet.attr == "advisor")).map { 
+            triplet => (triplet.srcId, (triplet.srcAttr._1, triplet.dstId, triplet.dstAttr._1))
+        }
+        val takesCourse: RDD[(Long, (Long, String))] = graph.triplets.filter(triplet => ((triplet.srcAttr._2 == "UndergraduateStudent" || triplet.srcAttr._2 == "GraduateStudent") && (triplet.dstAttr._2 == "Course" || triplet.dstAttr._2 == "GraduateCourse") && triplet.attr == "takesCourse")).map { 
+            triplet => (triplet.srcId, (triplet.dstId, triplet.dstAttr._1)) 
+        }
+        val teacherOf: RDD[((Long, Long), (String, String))] = graph.triplets.filter(triplet => ((triplet.srcAttr._2 == "AssistantProfessor" || triplet.srcAttr._2 == "AssociateProfessor" || triplet.srcAttr._2 == "FullProfessor") && (triplet.dstAttr._2 == "Course" || triplet.dstAttr._2 == "GraduateCourse") && triplet.attr == "teacherOf")).map { 
+            triplet => ((triplet.srcId, triplet.dstId), (triplet.srcAttr._1, triplet.dstAttr._1)) 
+        }
+        val joined1 = advisor.join(takesCourse).map {
+            case (studKey, ((student, profID, professor), (courseID, course))) => ((profID, courseID), student)
+        }
+        val joined2 = joined1.join(teacherOf).map { 
+            case ((profID, courseID), (student, (professor, course))) => (student, professor, course) 
+        }
+	
+	joined2.saveAsTextFile(directory+"/"+NAME)
+/*
+        for((student, professor, course) <- joined2.collect())
+            writer.println(student + "\t" + professor + "\t" + course)
+        
+        writer.close()
+*/
+    }
+}

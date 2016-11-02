@@ -1,0 +1,28 @@
+// ----------------------------------------------------------------------------------
+// Author: Seokyong Hong (shong3@ncsu.edu)
+// Date: 03/20/2015
+// ----------------------------------------------------------------------------------
+package main.scala
+
+import org.apache.spark.graphx._
+import org.apache.spark.SparkConf
+import org.apache.spark.SparkContext
+import org.apache.spark.SparkContext._
+import main.scala.lubm._
+import main.scala.operation._
+
+object Main {
+    val NODE_PATH = "/home/phantom/Desktop/LUBM/LUBM/data/nodes.json"
+    val EDGE_PATH = "/home/phantom/Desktop/LUBM/LUBM/data/edges.json"
+    val OUTPUT_DIRECTORY = "/home/phantom/Desktop/GraphX"
+   
+    def main(args: Array[String]) {
+        val conf = new SparkConf().setAppName("Spark LUBM Benchmark")
+        val sc = new SparkContext(conf)
+        val graphRDD :Graph[(String, String, String, String, Boolean, String, String), String] = loader.LUBMJSONLoader.loadDataset(sc, NODE_PATH, EDGE_PATH)
+        var query: Query[(String, String, String, String, Boolean, String, String), String] = null
+             
+        query = new LUBMQuery2(graphRDD)
+        query.execute(OUTPUT_DIRECTORY)
+    }
+}

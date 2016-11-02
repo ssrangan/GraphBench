@@ -1,0 +1,105 @@
+-- VERSION_4
+-- START DISKCACHE
+/home/phantom/git/benchmark/Query/NetworkX/.metadata/.plugins/org.eclipse.core.resources/.projects/LUBM Implementation/com.python.pydev.analysis/v2_indexcache
+lubm.query.Query9|1428594305000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query9.py
+lubm.query.Query8|1428594234000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query8.py
+query.AbstractQuery|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/AbstractQuery.py
+lubm.query.QueryE|1428548129000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryE.py
+lubm.query.QueryD|1428542526000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryD.py
+utility.FileWriter|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/utility/FileWriter.py
+lubm.__init__|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/__init__.py
+lubm.query.QueryG|1428593787000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryG.py
+main|1429367083000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/main.py
+lubm.query.QueryF|1428592652000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryF.py
+lubm.query.QueryA|1428998650000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryA.py
+lubm.query.QueryC|1428539343000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryC.py
+lubm.query.QueryB|1428539202000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/QueryB.py
+lubm.query.__init__|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/__init__.py
+query.__init__|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/__init__.py
+utility.__init__|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/utility/__init__.py
+query.QueryError|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/query/QueryError.py
+lubm.query.Query5|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query5.py
+lubm.query.Query14|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query14.py
+lubm.query.Query4|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query4.py
+lubm.query.Query7|1428594094000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query7.py
+lubm.query.Query12|1429317963000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query12.py
+lubm.query.Query6|1428496609000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query6.py
+lubm.query.Query2|1428594496000|/home/phantom/git/benchmark/Query/NetworkX/LUBM Implementation/lubm/query/Query2.py
+-- END DISKCACHE
+-- START DICTIONARY
+44
+38=QueryA
+37=QueryB
+34=QueryC
+9=lubm.query.Query9
+33=QueryD
+6=lubm.query.Query8
+29=QueryE
+28=QueryF
+24=QueryG
+31=FileWriter
+8=lubm.query.QueryE
+23=Query8
+5=lubm.query.QueryD
+22=Query9
+2=main
+17=lubm.query.QueryG
+15=lubm.query.QueryF
+7=lubm.query.QueryA
+39=Query12
+16=lubm.query.QueryC
+14=lubm.query.QueryB
+35=Query14
+36=Query2
+41=AbstractQuery.initialize
+32=Query4
+30=Query5
+19=query.QueryError
+27=Query6
+25=Query7
+10=lubm.query.Query5
+11=lubm.query.Query14
+4=lubm.query.Query4
+18=lubm.query.Query7
+20=lubm.query.Query12
+26=AbstractQuery
+13=lubm.query.Query6
+21=QueryError
+40=FileWriter.open
+12=lubm.query.Query2
+44=AbstractQuery.__init__
+1=query.AbstractQuery
+3=utility.FileWriter
+42=QueryError.__init__
+43=FileWriter.__init__
+-- END DICTIONARY
+-- START TREE 1
+6
+abs|1|AbstractQuery!9@
+end|1|endTime!19@
+fil|1|FileWriter!25@
+gra|1|graph!19@
+que|18|query!19@Query4!33@QueryD!41@Query8!49@QueryA!57@QueryE!65@Query9!73@Query5!81@Query14!89@Query2!97@Query6!105@QueryB!113@QueryF!121@QueryC!129@QueryG!137@Query7!145@QueryError!153@Query12!161@
+sta|1|startTime!19@
+-- END TREE
+-- START TREE 2
+18
+__i|19|__init__!21&154@__init__!22&74@__init__!23&50@__init__!24&138@__init__!25&146@__init__!26&10@__init__!27&106@__init__!28&122@__init__!29&66@__init__!30&82@__init__!31&26@__init__!32&34@__init__!33&42@__init__!34&130@__init__!35&90@__init__!36&98@__init__!37&114@__init__!38&58@__init__!39&162@
+__m|1|__metaclass__!26&11@
+__s|2|__str__!21&154@__str__!26&10@
+att|1|ATTRIBUTE_WORKS_FOR!32&35@
+bas|1|BASE_DIRECTORY!31&27@
+clo|1|close!31&26@
+cou|1|count!24&138@
+fil|1|file!40&27@
+fin|17|finalize!29&66@finalize!30&82@finalize!35&90@finalize!28&122@finalize!27&106@finalize!34&130@finalize!33&42@finalize!32&34@finalize!38&58@finalize!37&114@finalize!36&98@finalize!39&162@finalize!22&74@finalize!25&146@finalize!24&138@finalize!26&10@finalize!23&50@
+gra|1|graph!41&11@
+ini|17|initialize!23&50@initialize!26&10@initialize!22&74@initialize!28&122@initialize!27&106@initialize!25&146@initialize!24&138@initialize!33&42@initialize!32&34@initialize!30&82@initialize!29&66@initialize!39&162@initialize!37&114@initialize!36&98@initialize!34&130@initialize!35&90@initialize!38&58@
+mes|1|message!42&155@
+nam|2|name!43&27@name!44&11@
+nod|1|NODE_WORKS_FOR!32&35@
+ope|1|open!31&26@
+pat|1|path!40&27@
+pro|17|process!26&10@process!24&138@process!25&146@process!28&122@process!27&106@process!30&82@process!29&66@process!32&34@process!33&42@process!22&74@process!23&50@process!39&162@process!34&130@process!36&98@process!37&114@process!35&90@process!38&58@
+wri|2|writer!41&11@writeLine!31&26@
+-- END TREE

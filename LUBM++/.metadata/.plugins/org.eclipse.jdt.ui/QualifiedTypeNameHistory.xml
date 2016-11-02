@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.extension.graphml.GraphMLWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintStream"/>
+<fullyQualifiedTypeName name="java.io.FileOutputStream"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.RdfWriter"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.extension.graphml.JSONWriter"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.extension.graphml.RdfOnlyWriter"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.Generator"/>
+<fullyQualifiedTypeName name="java.io.Writer"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.Writer"/>
+<fullyQualifiedTypeName name="java.io.BufferedReader"/>
+<fullyQualifiedTypeName name="java.io.FileReader"/>
+<fullyQualifiedTypeName name="java.io.FileWriter"/>
+<fullyQualifiedTypeName name="java.io.PrintWriter"/>
+<fullyQualifiedTypeName name="java.io.File"/>
+<fullyQualifiedTypeName name="edu.lehigh.swat.bench.uba.extension.graphml.Neo4JGraphMLWriter"/>
+</qualifiedTypeNameHistroy>

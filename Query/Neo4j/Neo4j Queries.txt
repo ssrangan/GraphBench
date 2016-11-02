@@ -1,0 +1,138 @@
+# Query 2
+
+match 
+	x-[r1:RELATED_TO]->z,
+	z-[r2:RELATED_TO]->y,
+	x-[r3:RELATED_TO]->y
+where 
+	x.type='GraduateStudent' 
+	and y.type='University' 
+	and z.type='Department' 
+	and r1.memberOf='memberOf' 
+	and r2.subOrganizationOf='subOrganizationOf' 
+	and r3.undergraduateDegreeFrom ='undergraduateDegreeFrom' 
+return x,y,z
+
+# Query 4
+
+match 
+	x-[r1:RELATED_TO]->y,
+	y-[r2:RELATED_TO]->z
+where 
+	(x.type='AssistantProfessor' 
+		or x.type='AssociateProfessor' 
+		or x.type='FullProfessor')
+	and r1.worksFor = 'worksFor' 
+	and r2.subOrganizationOf = 'subOrganizationOf'
+	and y.name='Department0' and z.name='University0'
+return x,x.name, x.emailAddress, x.telephone
+
+# Query 5
+
+match 
+	x-[r1:RELATED_TO]->y,
+	y-[r2:RELATED_TO]->z
+where 
+	(x.type='AssistantProfessor' 
+		or x.type='AssociateProfessor' 
+		or x.type='FullProfessor'
+		or x.type='GraduateStudent'
+		or x.type='Lecturer'
+		or x.type='UndergraduateStudent')
+	and (r1.worksFor = 'worksFor' or r1.memberOf = 'memberOf')
+	and r2.subOrganizationOf = 'subOrganizationOf'
+	and y.name='Department0' and z.name='University0'
+return x
+
+# Query 6
+
+START 
+	x=node(*)
+where 
+	x.type='GraduateStudent' or x.type='UndergraduateStudent'
+return x
+
+# Query 7
+
+match 
+	x-[r1:RELATED_TO]->y,
+	z-[r2:RELATED_TO]->y,
+	z-[r3:RELATED_TO]->a,
+	a-[r4:RELATED_TO]->b
+where 
+	(x.type='GraduateStudent'	 or x.type='UndergraduateStudent')
+	and 
+	(y.type='Course'	 or y.type='GraduateCourse')
+	
+	and (r1.takesCourse = 'takesCourse')
+	and (r2.teacherOf = 'teacherOf')
+	and (r3.worksFor = 'worksFor')
+	and (r4.subOrganizationOf = 'subOrganizationOf')
+	
+	and z.name='AssociateProfessor0'
+	and a.name='Department0'
+	and b.name='University0'
+	
+return x
+
+# Query 8
+
+match 
+	x-[r1:RELATED_TO]->y,
+	y-[r2:RELATED_TO]->z
+where 
+	(x.type='GraduateStudent'	 or x.type='UndergraduateStudent')
+	and 
+	(y.type='Department')
+	
+	and (r1.memberOf = 'memberOf')
+	and (r2.subOrganizationOf = 'subOrganizationOf')
+	
+	and z.name='University0'
+
+return x, y, x.emailAdress
+
+# Query 9 
+
+match 
+	x-[r1:RELATED_TO]->y,
+	y-[r2:RELATED_TO]->z,
+	x-[r3:RELATED_TO]->z
+where 
+	( x.type='GraduateStudent'	 
+	  or x.type='UndergraduateStudent')
+	and 
+	( y.type='AssistantProfessor' 
+	  or y.type='AssociateProfessor' 
+	  or y.type='FullProfessor')
+	and 
+	( z.type='Course'
+	  or z.type='GraduateCourse')
+	and (r1.advisor = 'advisor')  
+	and (r2.teacherOf = 'teacherOf')
+	and (r3.takesCourse = 'takesCourse')
+return x, y, z
+
+# Query12
+
+match 
+
+	x-[r1:RELATED_TO]->y,
+	y-[r2:RELATED_TO]->z,
+	x-[r3:RELATED_TO]->a
+where 
+	( y.type='Department')
+	and 
+	( z.name='University0')
+	and (r1.worksFor = 'worksFor')
+	and (r2.subOrganizationOf = 'subOrganizationOf')
+	and (r3.headOf='headOf')
+	  
+return x, y
+
+# Query14
+
+start x=node(*)
+where 
+	(x.type='UndergraduateStudent')
+return x

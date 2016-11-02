@@ -1,0 +1,10 @@
+package main.scala.operation
+
+import org.apache.spark.graphx._
+
+abstract class Query(val graphRDD: Graph[T]) {
+    type T
+    var graph: Graph[T] = graphRDD
+    
+    
+}

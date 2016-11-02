@@ -1,0 +1,5 @@
+package main.scala.operation
+
+class Query {
+
+}

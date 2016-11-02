@@ -1,0 +1,28 @@
+package main.scala.lubm
+
+import java.io._
+import org.apache.spark.rdd.RDD
+import main.scala.operation.Query
+import org.apache.spark.graphx._
+
+class LUBMQuery2 (graphRDD: Graph[(String, String, String, String, Boolean, String, String), String]) extends Query(graphRDD) {
+    val NAME = "LUBM Query2"
+    
+    override def execute(directory: String) = {
+        //val writer = new PrintWriter(new File(directory, NAME))
+        
+        //val graduateStudents = graph.vertices.filter(_._2._2 == "GraduateStudent").map { case (key, (id, tp, name, email, isRA, interst, tel)) => (key, id) }
+        //val universities = graph.vertices.filter(_._2._2 == "University").map { case (key, (id, tp, name, email, isRA, interst, tel)) => (key, id) }
+        //val departments = graph.vertices.filter(_._2._2 == "Department").map { case (key, (id, tp, name, email, isRA, interst, tel)) => (key, id) }
+        
+        val memberOf: RDD[(Long, String, Long, String)] = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "GraduateStudent" && triplet.dstAttr._2 == "Department" && triplet.attr == "memberOf")).map { triplet => (triplet.srcId, triplet.srcAttr._1, triplet.dstId, triplet.dstAttr._1) }
+        val undergraduateDegreeFrom: RDD[(Long, String, Long, String)] = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "GraduateStudent" && triplet.dstAttr._2 == "University" && triplet.attr == "undergraduateDegreeFrom")).map { triplet => (triplet.srcId, triplet.srcAttr._1, triplet.dstId, triplet.dstAttr._1) }
+        val subOrganizationOf = graph.triplets.filter(triplet => (triplet.srcAttr._2 == "Department" && triplet.dstAttr._2 == "University" && triplet.attr == "subOrganizationOf")).map { triplet => (triplet.srcId, triplet.srcAttr._1, triplet.dstId, triplet.dstAttr._1) }
+        
+        PatternMatching
+        //for((key, (id, tp, name, email, isRA, interst, tel)) <- graph.vertices.filter(_._2._2 == "UndergraduateStudent").collect())
+        //    writer.println(id)
+        
+        //writer.close()
+    }
+}

@@ -1,0 +1,7 @@
+package main.scala.operation
+
+import org.apache.spark.graphx._
+
+class Query(graph: Graph) {
+    
+}
